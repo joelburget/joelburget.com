@@ -6,7 +6,7 @@ const nav = (
   <nav>
     <ul>
       <li><Link to="/">joelburget.com</Link></li>
-      <li style={{margin: '0 2em 0 1em'}}>(<a href="https://github.com/joelburget/blog.next">src</a>)</li>
+      <li style={{margin: '0 2em 0 1em'}}>(<a href="https://github.com/joelburget/blog">src</a>)</li>
       <li><Link to="/posts">/posts</Link></li>
     </ul>
     <hr />
