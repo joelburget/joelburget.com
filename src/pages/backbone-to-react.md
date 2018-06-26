@@ -2,7 +2,7 @@
 layout: post
 title: Backbone to React
 category: post
-published: October 28, 2013
+date: 2013-08-28
 description: My talk at Hack Reactor about Khan Academy's transition from Backbone to React
 permalink: /backbone-to-react
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Programmer Tooling Beyond Plain Text
 category: post
-published: May 5, 2015
+published: 2015-05-05
 description: Programmer Tooling Beyond Plain Text
 permalink: /plaintext
 ---

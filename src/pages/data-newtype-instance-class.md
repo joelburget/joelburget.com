@@ -2,7 +2,7 @@
 layout: post
 title: data, type, newtype, instance, class
 category: post
-published: February 26, 2011
+date: 2011-02-26
 description: what I was confused about when first learning haskell
 permalink: /data-newtype-instance-class
 ---

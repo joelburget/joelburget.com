@@ -2,6 +2,7 @@
 category: post
 title: now
 permalink: /now
+date: 2000-01-01
 ---
 # What I'm Doing Now
 

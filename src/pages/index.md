@@ -2,6 +2,7 @@
 category: post
 title: Home
 permalink: /
+date: 2000-01-01
 ---
 # Joel Burget
 
