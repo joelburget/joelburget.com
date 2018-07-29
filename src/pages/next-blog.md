@@ -3,6 +3,7 @@ category: post
 title: next blog
 permalink: /next-blog
 date: 2000-01-01
+listed: true
 ---
 # Blogging with next.js
 For a long time I've wanted to blog more regularly, but haven't been able to update my website. Which I mean literally. It had bitrotted to the point where I couldn't remember how to build and update it anymore.

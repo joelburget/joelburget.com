@@ -5,6 +5,7 @@ category: post
 date: 2013-08-28
 description: My talk at Hack Reactor about Khan Academy's transition from Backbone to React
 permalink: /backbone-to-react
+listed: false
 ---
 
 <div style="height: 17px;"></div>

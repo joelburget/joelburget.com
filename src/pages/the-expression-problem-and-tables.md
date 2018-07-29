@@ -5,6 +5,7 @@ category: post
 published: 2015-03-02
 description: The Expression Problem and Tables
 permalink: /the-expression-problem-and-tables
+listed: true
 ---
 
 # The Expression Problem and Tables

@@ -3,6 +3,7 @@ category: post
 title: Resume
 permalink: /resume
 date: 2000-01-01
+listed: false
 ---
 ## Projects:
 

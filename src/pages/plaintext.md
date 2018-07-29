@@ -5,6 +5,7 @@ category: post
 published: 2015-05-05
 description: Programmer Tooling Beyond Plain Text
 permalink: /plaintext
+listed: true
 ---
 
 # Programmer Tooling Beyond Plain Text

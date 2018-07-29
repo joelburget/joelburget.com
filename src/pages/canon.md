@@ -3,6 +3,7 @@ category: post
 title: canon
 permalink: /canon
 date: 2000-01-01
+listed: false
 ---
 # Personal Canon
 

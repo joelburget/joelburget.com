@@ -5,6 +5,7 @@ category: post
 date: 2011-02-26
 description: what I was confused about when first learning haskell
 permalink: /data-newtype-instance-class
+listed: true
 ---
 
 # data, type, newtype, instance, class

@@ -34,7 +34,10 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [id], order: DESC }) {
+    allMarkdownRemark(
+      sort: { fields: [id], order: ASC }
+      filter: { frontmatter: { listed: { eq: true } } }
+    ) {
       edges {
         node {
           excerpt

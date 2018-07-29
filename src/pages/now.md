@@ -3,6 +3,7 @@ category: post
 title: now
 permalink: /now
 date: 2000-01-01
+listed: false
 ---
 # What I'm Doing Now
 

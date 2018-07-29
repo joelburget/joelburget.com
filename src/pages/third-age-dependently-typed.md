@@ -5,6 +5,7 @@ category: post
 published: 2015-04-14
 description: The Third Age of Computing is Dependently Typed
 permalink: /third-age-dependently-typed
+listed: true
 ---
 
 # The Third Age of Computing is Dependently Typed
