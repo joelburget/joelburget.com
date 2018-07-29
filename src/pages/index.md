@@ -7,7 +7,9 @@ listed: false
 ---
 # Joel Burget
 
-I'm a software developer and designer from the US. I've worked professionally as a web developer focused on frontend / UI and also have extensive experience in typed functional programming. My most interesting work happens when I can mix UI and functional programming together.
+I'm a software developer from the US. I cofounded [Monic](https://www.monic.co/), where we work on verifying the correctness of software systems.
+
+I'm also interested in functional programming, programming languages, machine learning, logic, and category theory.
 
 ## Links
 
