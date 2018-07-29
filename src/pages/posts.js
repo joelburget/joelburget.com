@@ -35,7 +35,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      sort: { fields: [id], order: ASC }
+      sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { listed: { eq: true } } }
     ) {
       edges {

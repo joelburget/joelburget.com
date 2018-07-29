@@ -2,7 +2,7 @@
 layout: post
 title: The Expression Problem and Tables
 category: post
-published: 2015-03-02
+date: 2015-03-02
 description: The Expression Problem and Tables
 permalink: /the-expression-problem-and-tables
 listed: true

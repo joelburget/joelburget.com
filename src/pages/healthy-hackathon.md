@@ -2,7 +2,7 @@
 layout: post
 title: KhanQuest and the Healthy Hackathon
 category: post
-published: 2014-07-21
+date: 2014-07-21
 description: KhanQuest and the Healthy Hackathon
 permalink: /healthy-hackathon
 listed: false
