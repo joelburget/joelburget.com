@@ -2,7 +2,7 @@
 category: post
 title: next blog
 permalink: /next-blog
-date: 2000-01-01
+date: 2017-05-17
 listed: true
 ---
 # Blogging with next.js
