@@ -10,24 +10,24 @@ listed: true
 
 # data, type, newtype, instance, class
 
-One of the first things to confuse me about Haskell was the number of keywords related to types. The five (I know, 5 isn't <i>that</i> many) I've counted in Haskell 98 are `data`{.haskell}, `type`{.haskell}, `newtype`{.haskell}, `instance`{.haskell}, and `class`{.haskell}. I was unable to find a comprehensive discussion of what each of them means and how they are related to each other. I'll break these keywords up linto 2 related sets. `data`{.haskell}, `type`{.haskell}, and `newtype`{.haskell} are all ways to declare a new type. `instance`{.haskell} and `class`{.haskell} are slightly different. Let's take a closer look at them.
+One of the first things to confuse me about Haskell was the number of keywords related to types. The five (I know, 5 isn't <i>that</i> many) I've counted in Haskell 98 are `data`, `type`, `newtype`, `instance`, and `class`. I was unable to find a comprehensive discussion of what each of them means and how they are related to each other. I'll break these keywords up linto 2 related sets. `data`, `type`, and `newtype` are all ways to declare a new type. `instance` and `class` are slightly different. Let's take a closer look at them.
 
 ## data, type, newtype
 
-`data`{.haskell} is used to declare a new algebraic data type. We can use it to create a boolean or, in this case, the maybe monad:
+`data` is used to declare a new algebraic data type. We can use it to create a boolean or, in this case, the maybe monad:
 
 ```haskell
 data Bool = True | False
 data Maybe a = Nothing | Just a
 ```
 
-`type`{.haskell} is used to create an alias for an algebraic data type. A good example of this is included in the Prelude:
+`type` is used to create an alias for an algebraic data type. A good example of this is included in the Prelude:
 
 ```haskell
 type String = [Char]
 ```
 
-`newtype`{.haskell} acts similarly to `type`{.haskell} with a syntax akin to `data`{.haskell}. Thus we can write the following:
+`newtype` acts similarly to `type` with a syntax akin to `data`. Thus we can write the following:
 
 ``` haskell
 newtype Radius = Radius Double
@@ -36,15 +36,15 @@ data Diameter = Diameter Double
 
 Okay, so what's the difference between newtype and data? Three things (that I'm aware of):
 
-* `newtype`{.haskell} can only have a single constructor taking a single argument.
-* `newtype`{.haskell} creates a strict value constructor and `type`{.haskell} creates a lazy one (see <a href="#ref1">[1]</a>).
-* `newtype`{.haskell} introduces no runtime overhead.
+* `newtype` can only have a single constructor taking a single argument.
+* `newtype` creates a strict value constructor and `type` creates a lazy one (see <a href="#ref1">[1]</a>).
+* `newtype` introduces no runtime overhead.
 
 ## class, instance
 
-A typeclass is a way to guarantee that a type implements certain functions (or data). A type is declared to implement the functions using the keyword `instance`{.haskell}. An example will be helpful:
+A typeclass is a way to guarantee that a type implements certain functions (or data). A type is declared to implement the functions using the keyword `instance`. An example will be helpful:
 
-``` haskell
+```haskell
 --Normally I would use Double, but Int's will be easier to read
 type Point = (Int, Int)
 data Triangle = Triangle Point Point Point deriving (Show)
@@ -63,7 +63,7 @@ instance Shape Square where
   simple = Square (0, 0) (1, 0) (1, 1) (0, 1)
 ```
 
-As you can see, we first define 3 simple types. Next, the "`class Shape ...`{.haskell}" bit, that's the typeclass definition. All we're doing is telling the compiler what must be defined for an instance of `Shape`{.haskell}. With the `instance`{.haskell} keyword, we make our classes instances of `Shape`{.haskell} by defining the necessary stuff (i.e. rotate and simple). Let's try it in GHCi:
+As you can see, we first define 3 simple types. Next, the "`class Shape ...`" bit, that's the typeclass definition. All we're doing is telling the compiler what must be defined for an instance of `Shape`. With the `instance` keyword, we make our classes instances of `Shape` by defining the necessary stuff (i.e. rotate and simple). Let's try it in GHCi:
 
 ```
 Prelude> :l shape.hs
@@ -80,13 +80,13 @@ Triangle (0,1) (0,0) (1,0)
 Triangle (1,0) (0,1) (0,0)
 ```
 
-Cool! Because `Square`{.haskell} and `Triangle`{.haskell} instantiate `Shape`{.haskell}, we know that we can call rotate on them. That's all a typeclass does. I tend to think of them as an interface or a contract.
+Cool! Because `Square` and `Triangle` instantiate `Shape`, we know that we can call rotate on them. That's all a typeclass does. I tend to think of them as an interface or a contract.
 
 ## Summary
 
-Remember, `data`{.haskell}, `type`{.haskell} and `newtype`{.haskell} are about making types. `instance`{.haskell} and `class`{.haskell} are about making typeclasses.
+Remember, `data`, `type` and `newtype` are about making types. `instance` and `class` are about making typeclasses.
 
-PS, there's another keyword, `deriving`{.haskell}, that could fit in this discussion. It seems less confusing to <em>me</em>, so I won't cover it.
+PS, there's another keyword, `deriving`, that could fit in this discussion. It seems less confusing to <em>me</em>, so I won't cover it.
 
 ## Further reading
 

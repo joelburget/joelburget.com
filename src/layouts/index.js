@@ -123,6 +123,11 @@ del::before, del::after {
   color: rgba(0, 0, 0, 0.5);
 }
 
+p > code::before, p > code::after {
+  content: '\`';
+  color: rgba(0, 0, 0, 0.5);
+}
+
 li > p {
 }
 
