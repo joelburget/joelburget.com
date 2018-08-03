@@ -27,6 +27,10 @@ Not so much after all!
 
 [Program Reduction: A Win for Recursion Schemes](http://newartisans.com/2018/04/win-for-recursion-schemes/)
 
+## Contrarian Knuth
+
+> I also must confess to a strong bias against the fashion for reusable code. To me, "re-editable code" is much, much better than an untouchable black box or toolkit. I could go on and on about this. If you’re totally convinced that reusable code is wonderful, I probably won’t be able to sway you anyway, but you’ll never convince me that reusable code isn’t mostly a menace.
+
 ## [An implementation of AlphaGo Zero](https://dylandjian.github.io/alphago-zero/)
 
 ## [A Typed, Algebraic Approach to Parsing](http://semantic-domain.blogspot.com/2018/07/a-typed-algebraic-approach-to-parsing.html)
