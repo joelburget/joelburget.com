@@ -26,3 +26,15 @@ Not so much after all!
 ## Also by John Wiegley:
 
 [Program Reduction: A Win for Recursion Schemes](http://newartisans.com/2018/04/win-for-recursion-schemes/)
+
+## [An implementation of AlphaGo Zero](https://dylandjian.github.io/alphago-zero/)
+
+## [A Typed, Algebraic Approach to Parsing](http://semantic-domain.blogspot.com/2018/07/a-typed-algebraic-approach-to-parsing.html)
+
+IMO parser combinators are way overused.
+
+* They get messy really quickly
+* They leave it to the user to define a parsing strategy
+* The error messages are horrible
+
+I'm really looking forward to using something like this.
