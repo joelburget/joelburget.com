@@ -42,3 +42,9 @@ IMO parser combinators are way overused.
 * The error messages are horrible
 
 I'm really looking forward to using something like this.
+
+## [streaming](http://hackage.haskell.org/package/streaming)
+
+### an elementary streaming prelude and general stream type.
+
+Supposedly the last word in Haskell pipes / streaming libraries.
