@@ -50,6 +50,9 @@ export default Template
 injectGlobal`
 hr {
   margin: 2em 0;
+  height: 1px;
+  border: none;
+  background-color: black;
 }
 .host {
   margin: 0 auto;
