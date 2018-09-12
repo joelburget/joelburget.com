@@ -5,12 +5,12 @@ category: post
 date: 2018-09-09
 description: What's new since *The algebra (and calculus!) of algebraic data types*?
 permalink: /what-new-data-types
-listed: False
+listed: True
 ---
 
-In June 2015, I published [*The algebra (and calculus!) of algebraic data types*](https://codewords.recurse.com/issues/three/algebra-and-calculus-of-algebraic-data-types) in [Code Words](https://codewords.recurse.com/). I saw it on Hacker News yesterday and thought now would be a good time to revisit the post. There's a lot I didn't have space to cover in the original or didn't know.
+In June 2015, I published [*The algebra (and calculus!) of algebraic data types*](https://codewords.recurse.com/issues/three/algebra-and-calculus-of-algebraic-data-types) in [Code Words](https://codewords.recurse.com/). I saw it on Hacker News a few days ago and thought now would be a good time to revisit the post.
 
-This post ends up looking like a grab-bag of links.
+There's a lot I didn't have space to cover in the original or didn't know. In this post I'll link to all the resources I can remember.
 
 ## Bottoms
 
@@ -54,7 +54,7 @@ Conor McBride compiled [a book of his Stack Overflow answers](https://personal.c
 
 Additionally, here are some more relevant answers (also by Conor).
 
-* [Is there a non-trivial type which is equal to its own derivative?](https://cs.stackexchange.com/q/75896/41069). Some comments here also hint at a link to combinatorial species.
+* [Is there a non-trivial type which is equal to its own derivative?](https://cs.stackexchange.com/q/75896/41069). Some comments here also hint at a link to combinatorial species (which also came up several times in the discussions linked below).
 * [What is the logarithm or root operation in type-space?](https://cstheory.stackexchange.com/q/17006/4126)
 * [Why do we need containers?](https://stackoverflow.com/a/34346484/383958)
 
