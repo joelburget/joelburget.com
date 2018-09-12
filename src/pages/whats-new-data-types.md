@@ -12,6 +12,57 @@ In June 2015, I published [*The algebra (and calculus!) of algebraic data types*
 
 This post ends up looking like a grab-bag of links.
 
+## Bottoms
+
+One thing I complete skipped talking about in the original article is [*bottom*](https://en.wikibooks.org/wiki/Haskell/Denotational_semantics#%E2%8A%A5_Bottom), the undefined value, which complicates the story. Naively, you'd expect there to be one function of type `forall a. a -> a`, right? The definition must be `\a -> a`, right?, Well, in Haskell, `undefined` also has this type, so there are two inhabitants. There's a lot more to say on this subject but that's for another time.
+
+## Brzozowski derivative
+
+An algorithm to compute the derivative of a regular expression, meaning the set of all strings obtainable from a string by removing a prefix.
+
+Quoting [Julia Evans](https://jvns.ca/blog/2016/04/25/how-regular-expressions-go-fast/):
+
+> Let's say we have a regular expression which is supposed to match the strings ('a', 'abab', 'aaaabb', 'bbc').
+>
+> The derivative of those strings with respect to 'a' is ('', 'bab', 'aaabb') -- you strip off the a from every string.
+
+Anyway, what good is this? See Matt Might on [parsing with derivatives](http://matt.might.net/articles/parsing-with-derivatives/).
+
+## Stackoverflow
+
+Conor McBride compiled [a book of his Stack Overflow answers](https://personal.cis.strath.ac.uk/conor.mcbride/so-pigworker.pdf). I'll include the titles to whet your appetite:
+
+6. Differential Calculus for Types
+6.1 Find the preceding element of an element in list
+6.2 Splitting a List
+6.3 nub as a List Comprehension
+6.4 How to make a binary tree zipper an instance of Comonad?
+6.5 What’s the absurd function in Data.Void useful for?
+6.6 Writing cojoin or cobind for n-dimensional grids
+6.6.1 Cursors in Lists
+6.6.2 Composing Cursors, Transposing Cursors?
+6.6.3 Hancock’s Tensor Product
+6.6.4 InContext for Tensor Products
+6.6.5 Naperian Functors
+6.7 Zipper Comonads, Generically
+6.8 Traversable and zippers: necessity and sufficiency
+6.9 How to write this (funny filter) function idiomatically?
+6.10 Computing a term of a list depending on all previous terms
+6.11 Reasonable Comonad implementations (for nonempty lists)
+6.12 Representable (or Naperian) Functors
+6.13 Tries as Naperian Functors; Matching via their Derivatives
+
+Additionally, here are some more relevant answers (also by Conor).
+
+* [Is there a non-trivial type which is equal to its own derivative?](https://cs.stackexchange.com/q/75896/41069). Some comments here also hint at a link to combinatorial species.
+* [What is the logarithm or root operation in type-space?](https://cstheory.stackexchange.com/q/17006/4126)
+* [Why do we need containers?](https://stackoverflow.com/a/34346484/383958)
+
+## Other
+
+[The Types of Data](https://github.com/tel/old-blog/blob/master/_posts/2014-07-23-types_of_data.md)
+  - [comments](https://www.reddit.com/r/haskell/comments/2bj7it/let_me_tell_you_about_the_types_of_data/cj5y701/)
+
 ## Discussions
 
 There's been discussion on:
@@ -94,58 +145,3 @@ McBride's "The Derivative of a Regular Type is its Type of One-Hole Contexts" ht
 Wilf has an entire book "Generatingfunctionology" if you want more straight combinatorics (https://www.math.upenn.edu/~wilf/gfology2.pdf)
 
 Paykin et al. ("choose your own derivative" https://www.cis.upenn.edu/~jpaykin/papers/psf_choose_2016.pdf) show how derivatives are useful in event-deriven concurrent programming.
-
-## Bottoms
-
-One thing I complete skipped talking about in the original article is [*bottom*](https://en.wikibooks.org/wiki/Haskell/Denotational_semantics#%E2%8A%A5_Bottom), the undefined value, which complicates the story. Naively, you'd expect there to be one function of type `forall a. a -> a`, right? The definition must be `\a -> a`, however, in Haskell, `undefined` also has this type, so there are actually two inhabitants. There's a lot more to say on this subject but that's for another time.
-
-## Brzozowski derivative
-
-An algorithm to compute the derivative of a regular expression, meaning the set of all strings obtainable from a string by removing a prefix.
-
-Quoting [Julia Evans](https://jvns.ca/blog/2016/04/25/how-regular-expressions-go-fast/):
-
-> Let's say we have a regular expression which is supposed to match the strings ('a', 'abab', 'aaaabb', 'bbc').
->
-> The derivative of those strings with respect to 'a' is ('', 'bab', 'aaabb') -- you strip off the a from every string.
-
-Anyway, what good is this? [Parsing with derivatives](http://matt.might.net/articles/parsing-with-derivatives/)
-
-## Domain theory
-
-## Stackoverflow
-
-Conor McBride compiled [a book of his Stack Overflow answers](https://personal.cis.strath.ac.uk/conor.mcbride/so-pigworker.pdf). I'll include the titles to whet your appetite:
-
-6. Differential Calculus for Types
-6.1 Find the preceding element of an element in list
-6.2 Splitting a List
-6.3 nub as a List Comprehension
-6.4 How to make a binary tree zipper an instance of Comonad?
-6.5 What’s the absurd function in Data.Void useful for?
-6.6 Writing cojoin or cobind for n-dimensional grids
-6.6.1 Cursors in Lists
-6.6.2 Composing Cursors, Transposing Cursors?
-6.6.3 Hancock’s Tensor Product
-6.6.4 InContext for Tensor Products
-6.6.5 Naperian Functors
-6.7 Zipper Comonads, Generically
-6.8 Traversable and zippers: necessity and sufficiency
-6.9 How to write this (funny filter) function idiomatically?
-6.10 Computing a term of a list depending on all previous terms
-6.11 Reasonable Comonad implementations (for nonempty lists)
-6.12 Representable (or Naperian) Functors
-6.13 Tries as Naperian Functors; Matching via their Derivatives
-
-Additionally, here are some more relevant answers (also by Conor).
-
-* [Is there a non-trivial type which is equal to its own derivative?](https://cs.stackexchange.com/q/75896/41069). Some comments here also hint at a link to combinatorial species.
-* [What is the logarithm or root operation in type-space?](https://cstheory.stackexchange.com/q/17006/4126)
-* [Why do we need containers?](https://stackoverflow.com/a/34346484/383958)
-
-## Yoneda
-
-## Other
-
-[The Types of Data](https://github.com/tel/old-blog/blob/master/_posts/2014-07-23-types_of_data.md)
-  - [comments](https://www.reddit.com/r/haskell/comments/2bj7it/let_me_tell_you_about_the_types_of_data/cj5y701/)
