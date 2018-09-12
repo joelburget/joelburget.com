@@ -18,7 +18,7 @@ One thing I complete skipped talking about in the original article is [*bottom*]
 
 ## Brzozowski derivative
 
-An algorithm to compute the derivative of a regular expression, meaning the set of all strings obtainable from a string by removing a prefix.
+This is an algorithm to compute the derivative of a regular expression, meaning the set of all strings obtainable from a string by removing a prefix.
 
 Quoting [Julia Evans](https://jvns.ca/blog/2016/04/25/how-regular-expressions-go-fast/):
 
@@ -26,31 +26,31 @@ Quoting [Julia Evans](https://jvns.ca/blog/2016/04/25/how-regular-expressions-go
 >
 > The derivative of those strings with respect to 'a' is ('', 'bab', 'aaabb') -- you strip off the a from every string.
 
-Anyway, what good is this? See Matt Might on [parsing with derivatives](http://matt.might.net/articles/parsing-with-derivatives/).
+What good is this? See Matt Might on [parsing with derivatives](http://matt.might.net/articles/parsing-with-derivatives/).
 
 ## Stackoverflow
 
 Conor McBride compiled [a book of his Stack Overflow answers](https://personal.cis.strath.ac.uk/conor.mcbride/so-pigworker.pdf). I'll include the titles to whet your appetite:
 
-6. Differential Calculus for Types
-6.1 Find the preceding element of an element in list
-6.2 Splitting a List
-6.3 nub as a List Comprehension
-6.4 How to make a binary tree zipper an instance of Comonad?
-6.5 What’s the absurd function in Data.Void useful for?
-6.6 Writing cojoin or cobind for n-dimensional grids
-6.6.1 Cursors in Lists
-6.6.2 Composing Cursors, Transposing Cursors?
-6.6.3 Hancock’s Tensor Product
-6.6.4 InContext for Tensor Products
-6.6.5 Naperian Functors
-6.7 Zipper Comonads, Generically
-6.8 Traversable and zippers: necessity and sufficiency
-6.9 How to write this (funny filter) function idiomatically?
-6.10 Computing a term of a list depending on all previous terms
-6.11 Reasonable Comonad implementations (for nonempty lists)
-6.12 Representable (or Naperian) Functors
-6.13 Tries as Naperian Functors; Matching via their Derivatives
+    6. Differential Calculus for Types
+    6.1 Find the preceding element of an element in list
+    6.2 Splitting a List
+    6.3 nub as a List Comprehension
+    6.4 How to make a binary tree zipper an instance of Comonad?
+    6.5 What’s the absurd function in Data.Void useful for?
+    6.6 Writing cojoin or cobind for n-dimensional grids
+    6.6.1 Cursors in Lists
+    6.6.2 Composing Cursors, Transposing Cursors?
+    6.6.3 Hancock’s Tensor Product
+    6.6.4 InContext for Tensor Products
+    6.6.5 Naperian Functors
+    6.7 Zipper Comonads, Generically
+    6.8 Traversable and zippers: necessity and sufficiency
+    6.9 How to write this (funny filter) function idiomatically?
+    6.10 Computing a term of a list depending on all previous terms
+    6.11 Reasonable Comonad implementations (for nonempty lists)
+    6.12 Representable (or Naperian) Functors
+    6.13 Tries as Naperian Functors; Matching via their Derivatives
 
 Additionally, here are some more relevant answers (also by Conor).
 
@@ -60,8 +60,8 @@ Additionally, here are some more relevant answers (also by Conor).
 
 ## Other
 
-[The Types of Data](https://github.com/tel/old-blog/blob/master/_posts/2014-07-23-types_of_data.md)
-  - [comments](https://www.reddit.com/r/haskell/comments/2bj7it/let_me_tell_you_about_the_types_of_data/cj5y701/)
+Joseph Abrahamson on [The Types of Data](https://github.com/tel/old-blog/blob/master/_posts/2014-07-23-types_of_data.md)
+  ([comments](https://www.reddit.com/r/haskell/comments/2bj7it/let_me_tell_you_about_the_types_of_data/cj5y701/))
 
 ## Discussions
 
