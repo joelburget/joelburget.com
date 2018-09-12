@@ -30,7 +30,7 @@ What good is this? See Matt Might on [parsing with derivatives](http://matt.migh
 
 ## Stackoverflow
 
-Conor McBride compiled [a book of his Stack Overflow answers](https://personal.cis.strath.ac.uk/conor.mcbride/so-pigworker.pdf). I'll include the titles to whet your appetite:
+Conor McBride compiled [a book of his Stack Overflow answers](https://personal.cis.strath.ac.uk/conor.mcbride/so-pigworker.pdf). I'll quote the titles to whet your appetite:
 
     6. Differential Calculus for Types
     6.1 Find the preceding element of an element in list
@@ -52,13 +52,13 @@ Conor McBride compiled [a book of his Stack Overflow answers](https://personal.c
     6.12 Representable (or Naperian) Functors
     6.13 Tries as Naperian Functors; Matching via their Derivatives
 
-Additionally, here are some more relevant answers (also by Conor).
+Additionally, here are some more relevant answers not found in the book (also by Conor).
 
 * [Is there a non-trivial type which is equal to its own derivative?](https://cs.stackexchange.com/q/75896/41069). Some comments here also hint at a link to combinatorial species (which also came up several times in the discussions linked below).
 * [What is the logarithm or root operation in type-space?](https://cstheory.stackexchange.com/q/17006/4126)
 * [Why do we need containers?](https://stackoverflow.com/a/34346484/383958)
 
-## Other
+## Other blog posts
 
 Joseph Abrahamson on [The Types of Data](https://github.com/tel/old-blog/blob/master/_posts/2014-07-23-types_of_data.md)
   ([comments](https://www.reddit.com/r/haskell/comments/2bj7it/let_me_tell_you_about_the_types_of_data/cj5y701/))
