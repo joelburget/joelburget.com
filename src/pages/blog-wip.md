@@ -21,3 +21,7 @@ Who knew you could do all this with bash?
 ## [By 1303, the Chinese were solving equations of the 14th degree. What practical problem motivated such a result?](https://www.reddit.com/r/AskHistorians/comments/9bkfhj/by_1303_the_chinese_were_solving_equations_of_the/)
 
 Interesting question and answer.
+
+## [Checking Dependent Types with Normalization by Evaluation: A Tutorial](http://davidchristiansen.dk/tutorials/nbe/)
+
+David Christiansen does write great tutorials, but scheme...

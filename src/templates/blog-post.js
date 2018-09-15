@@ -11,7 +11,12 @@ class BlogPostTemplate extends React.Component {
 
     return (
       <div>
-        <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
+        <Helmet
+          title={`${post.frontmatter.title} | ${siteTitle}`}
+        >
+          <link rel="shortcut icon" type="image/png" href="favicon512.png" sizes="512x512" />
+          <link rel="shortcut icon" type="image/png" href="favicon600.png" sizes="600x600" />
+        </Helmet>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
 
         {this.props.location.pathname != "/" &&
