@@ -13,12 +13,13 @@ At [Monic](https://monic.co), working on the [Pact property checking system](htt
 
 ### Traveling / Exploring
 
-With planned trips to Alaska and Thailand. I'm also still getting to know my new city -- Los Angeles.
+Currently planning to travel to Thailand and South Africa. I'm also still getting to know my new city -- Los Angeles.
 
 ### Fiction
 
-  - The Urth of the New Sun
   - Infinite Jest (I've been reading this for, like, a year)
+  - Hero with a Thousand Faces
+  - Peace (Gene Wolfe)
 
 ### Nonfiction
 

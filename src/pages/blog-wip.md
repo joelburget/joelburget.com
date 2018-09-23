@@ -25,3 +25,9 @@ Interesting question and answer.
 ## [Checking Dependent Types with Normalization by Evaluation: A Tutorial](http://davidchristiansen.dk/tutorials/nbe/)
 
 David Christiansen does write great tutorials, but scheme...
+
+[A Semantics-Directed Compiler Generator](/static/semantics-directed-compiler-generator.pdf)
+[Semantics of Programming Languages: A Tool-Oriented Approach](/static/semantics-of-programming-languages.pdf)
+
+[A Realistic Compiler Generator Based on High-Level Semantics](/static/compiler-generator.pdf)
+[SIS -- Semantics Implementation System](/static/sis.pdf)

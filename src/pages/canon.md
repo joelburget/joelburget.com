@@ -46,10 +46,19 @@ This is a work in progress.
 * [Visual Complex Analysis](http://www.amazon.com/Visual-Complex-Analysis-Tristan-Needham/dp/0198534469) -- This book takes an intimidating subject, tells you to ignore the equations and focus on the intuition. Wonderful visualizations. This is what I'm all about.
 * [The Diamond Age](http://www.amazon.com/Diamond-Age-Illustrated-Primer-Spectra/dp/0553380966)
 * [Gödel, Escher, Bach](http://www.amazon.com/G%C3%B6del-Escher-Bach-Eternal-Golden/dp/0465026567) -- This book (along with SICP, next) profoundly influenced my direction in life. Beautifully written and fascinating.
+* Infinite Jest
+* Alice in Wonderland
+* Diamond Age
+* Musashi
+* Hitchhiker's Guide to the Galaxy
+* Dune
+* Neil Gaiman anything, especially Sandman
+* Surely You're Joking, Mr. Feyman!
+* The Book of the New Sun
 
 ### Misc
 
-* Bret Victor -- Inventing on Principle is a classic closely related to my interests, but it's just one example of consistenly great work from Bret.
+* Bret Victor -- Inventing on Principle is a classic closely related to my interests, but it's just one example of consistently great work from Bret.
 * [Ben Kamens](http://bjk5.com), [Andy Matuschak](https://andymatuschak.org), [Ben Alpert](http://benalpert.com), [Craig Silverstein](https://en.wikipedia.org/wiki/Craig_Silverstein) -- Enough people I've never met. These are some of the best engineers I've ever worked with, who each taught me something about making great software. I'm grateful for having learned from each of you.
-* Elon Musk. Probably the biggest inspiration on this list.
+* Elon Musk
 * Maxwell's Equations / General Relativity / QED
