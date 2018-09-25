@@ -47,6 +47,8 @@ rational
 real
 ```
 
+> The remainder of each alternative of the non-terminal definitions consists of nested boxes, i.e. items of the form `[<...> ...]`. Stripping out the boxes would leave a linear sequence of terminals and non-terminals much as in BNF. The boxes perform two functions: they specify how the language is to be pretty-printed, and they also allow sequences of terminals and non-terminals to be optional or repeated.
+
 layout specifications
 
 > A format, then is either a terminal (a string constant possibly annotated by an associativity), a non-terminal (an identifier), or a box (denoted by square brackets).
@@ -106,10 +108,10 @@ The snippet corresponds to this ML datatype:
 ```
 datatype com
   = Skip
-􏰡 | Assign of name * iexp
-􏰡 | If of bexp * com * com option 􏰡
+  | Assign of name * iexp
+  | If of bexp * com * com option 􏰡
   | While of bexp * com
-􏰡 | Block of com list
+  | Block of com list
 ```
 
 ## Denotational Semantics
@@ -119,11 +121,11 @@ datatype com
 ```
 [| Skip |] == ();;
 [| Assign(<<name>>,<<iexp |] == !<<name>> <- [|<<iexp>>|];;
-[|If(<<bexp>>,<<com.1>>,{}) ==
-  if [|<<bexp>>|] then [|<<com.1>>|] else ();;
-[|While(<<bexp>>,<<com.1>>,{<<com.2>>}) |] ==
+[| If(<<bexp>>,<<com.1>>,{}) |] ==
+  if [|<<bexp>>|] then [|<<com.1>> |] else ();;
+[| While(<<bexp>>,<<com.1>>,{<<com.2>>}) |] ==
   if [|<<bexp>>|]
   then ([|<<com>>|]; [| While(<<bexp>>,<<com>>) |])
   else ();;
-[|Block(<<[coms]>>) |] == ([|<<coms>>|]; ());;
+[| Block(<<[coms]>>) |] == ([|<<coms>>|]; ());;
 ```
