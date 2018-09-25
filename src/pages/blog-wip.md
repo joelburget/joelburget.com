@@ -49,3 +49,57 @@ but in fact emulation itself is 3-5 orders of magnitude slower
 ## [Neural Guided Constraint Logic Programming for Program Synthesis](https://arxiv.org/abs/1809.02840)
 
 > Synthesizing programs using example input/outputs is a classic problem in artificial intelligence. We present a method for solving Programming By Example (PBE) problems by using a neural model to guide the search of a constraint logic programming system called miniKanren. Crucially, the neural model uses miniKanren's internal representation as input; miniKanren represents a PBE problem as recursive constraints imposed by the provided examples. We explore Recurrent Neural Network and Graph Neural Network models. We contribute a modified miniKanren, drivable by an external agent, available at [this URL](https://github.com/xuexue/neuralkanren) We show that our neural-guided approach using constraints can synthesize programs faster in many cases, and importantly, can generalize to larger problems.
+
+## [How should we evaluate progress in AI?](https://meaningness.com/metablog/artificial-intelligence-progress)
+
+Discusses AI in terms of six related fields
+
+1. Science
+2. Engineering
+3. Mathematics
+4. Philosophy
+5. Design
+6. Spectacle
+
+> Science aims to learn how the world works, by experiment when possible, or observation otherwise. In AI, we have the luxury of experiment. Still better: we have the luxury of *perfectly repeatable* experiments, under perfectly controlled conditions! Almost no other domain is as ideally suited to scientific investigation.
+>
+> Yet it is uncommon for AI research to include either a hypothesis or an experiment.
+
+## [Strong AI Isn’t Here Yet](https://srconstantin.wordpress.com/2017/02/21/strong-ai-isnt-here-yet/)
+
+> We don’t know how to assign and update probabilities on predicate statements using Bayes nets, in a coherent and general manner. So we don’t know how to do that with neural nets either, except to the degree that neural nets are simpler or easier to work with than general Bayes nets.
+>
+> For instance, as Thomas Colthurst points out in the comments, message passing algorithms don’t provably work in general Bayes nets, but do work in feedforward neural nets, which don’t have cycles. It may be that neural nets provide a restricted domain in which modeling predicate statements probabilistically is more tractable. I would have to learn more about this.
+
+Abram Demski:
+
+> Logical induction is more or less an extension of probability theory to allow us to meaningfully work with first-order logic while at the same time remaining computable (though not very feasibly computable!).
+>
+> What logical induction does which that kind of approach could never do is give some guarantees about the _way_ in which a coherent distribution gets approximated; it guarantees that good heuristic guesses will be made. So logical induction formalizes the way mathematicians can make conjectures, and illustrates that it necessarily goes beyond probability theory in a certain way (while also keeping as close to probability theory as possible).
+>
+> If anything, I would say that a better characterization of the limits of logical induction is that it doesn’t do _second-order_ logic. It doesn’t have notions of “finite” vs “infinite” like those which second-order logic can supply. It doesn’t come to believe in a standard model of the natural numbers.
+
+## [Future Directions for Optimizing Compilers](https://arxiv.org/pdf/1809.02161.pdf)
+
+> An optimizing compiler is faced with a collection of intractable search problems
+> and given very little time in which to solve them. The solutions to these problems
+> enable and block each other in ways that can be difficult to predict ahead of
+> time: this is the “phase ordering” problem where a compiler must find a sequence
+> of optimization passes that seems to give good results most of the time, without
+> taking too long to execute. Optimizations that work well in one problem domain
+> (loop vectorization or aggressive partial evaluation, for example) are often useless
+> or counterproductive in other domains, and yet a given compiler instance has no
+> obvious principled way to know what will work well this time.
+
+
+> This paper is organized around a handful of thesis statements; the main one is:
+
+> Thesis 1. Major components of future compilers will be generated partially
+> automatically, with the help of SMT solvers, directly addressing compiler
+> speed (automatically discovered optimizations will be structured uniformly
+> and amenable to fast rewrite strategies), compiler correctness (automated
+> theorem provers are generally less fallible than humans), and code quality
+> (solvers can be used to conduct a thorough search of the optimization space).
+
+> Thesis 6. Durable interfaces, such as ISAs, IRs, and programming languages,
+> should be accompanied by first-class formal semantics.
