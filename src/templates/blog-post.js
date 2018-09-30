@@ -6,7 +6,7 @@ import get from 'lodash/get'
 import Layout from "../components/layout"
 
 export default (props) => {
-  const { location, pathContext: { previous, next } } = props;
+  const { location, pageContext: { previous, next } } = props;
   const post = props.data.markdownRemark
   const siteTitle = get(props, 'data.site.siteMetadata.title')
 
