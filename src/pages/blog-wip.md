@@ -26,11 +26,12 @@ Interesting question and answer.
 
 David Christiansen does write great tutorials, but scheme...
 
-[A Semantics-Directed Compiler Generator](/static/semantics-directed-compiler-generator.pdf)
-[Semantics of Programming Languages: A Tool-Oriented Approach](/static/semantics-of-programming-languages.pdf)
+## Compiler Generators
 
-[A Realistic Compiler Generator Based on High-Level Semantics](/static/compiler-generator.pdf)
-[SIS -- Semantics Implementation System](/static/sis.pdf)
+* [A Semantics-Directed Compiler Generator](/static/semantics-directed-compiler-generator.pdf)
+* [Semantics of Programming Languages: A Tool-Oriented Approach](/static/semantics-of-programming-languages.pdf)
+* [A Realistic Compiler Generator Based on High-Level Semantics](/static/compiler-generator.pdf)
+* [SIS -- Semantics Implementation System](/static/sis.pdf)
 
 ## [Understanding deep learning requires rethinking generalization](https://arxiv.org/abs/1611.03530)
 

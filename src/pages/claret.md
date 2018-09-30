@@ -129,3 +129,7 @@ datatype com
   else ();;
 [| Block(<<[coms]>>) |] == ([|<<coms>>|]; ());;
 ```
+
+## Related Work
+
+[Invertible Syntax Descriptions: Unifying Parsing and Pretty Printing](http://www.mathematik.uni-marburg.de/~rendel/rendel10invertible.pdf)
