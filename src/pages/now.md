@@ -13,23 +13,23 @@ At [Monic](https://monic.co), working on the [Pact property checking system](htt
 
 ### Traveling / Exploring
 
-Currently planning to travel to Thailand and South Africa. I'm also still getting to know my new city -- Los Angeles.
+Currently planning to travel to Thailand and South Africa. I'm also still getting to know my new city (Los Angeles).
 
 ### Fiction
 
-  - Infinite Jest (I've been reading this for, like, a year)
-  - Hero with a Thousand Faces
-  - Peace (Gene Wolfe)
+  - [Infinite Jest](https://en.wikipedia.org/wiki/Infinite_Jest) (I've been reading this for, like, a year)
+  - [Hero with a Thousand Faces](https://en.wikipedia.org/wiki/The_Hero_with_a_Thousand_Faces)
+  - [Peace (Gene Wolfe)](https://en.wikipedia.org/wiki/Peace_(novel))
 
 ### Nonfiction
 
   - [Category Theory for Computing Science](https://www.amazon.com/Category-Theory-Computing-Science-Michael/dp/0131204866)
   - [Gauge Fields, Knots and Gravity](https://www.amazon.com/GAUGE-FIELDS-KNOTS-GRAVITY-Everything/dp/9810220340/)
   - [Introduction to Coalgebra](https://www.cambridge.org/core/books/introduction-to-coalgebra/0D508876D20D95E17871320EADC185C6)
-  - Calculus on Manifolds
-  - Functional Differential Geometry
-  - The Blind Spot
-  - Structure and Interpretation of Classical Mechanics
+  - [Calculus on Manifolds](https://www.amazon.com/Calculus-Manifolds-Approach-Classical-Theorems/dp/0805390219)
+  - [Functional Differential Geometry](https://mitpress.mit.edu/books/functional-differential-geometry)
+  - [The Blind Spot](https://www.amazon.com/Blind-Spot-Lectures-Logic/dp/3037190884)
+  - [Structure and Interpretation of Classical Mechanics](https://mitpress.mit.edu/books/structure-and-interpretation-classical-mechanics-second-edition)
 
 ### Writing
 
