@@ -25,27 +25,19 @@ const footer = (
   </footer>
 );
 
-class Template extends React.Component {
-  render() {
-    const { children } = this.props
-
-    return (
-      <div
-        style={{
-          marginLeft: 'auto',
-          marginRight: 'auto',
-        }}
-        className="host"
-      >
-        {nav}
-        {children()}
-        {this.props.location.pathname != "/" && footer}
-      </div>
-    )
-  }
-}
-
-export default Template
+export default ({ children, location }) => (
+  <div
+    style={{
+      marginLeft: 'auto',
+      marginRight: 'auto',
+    }}
+    className="host"
+  >
+    {nav}
+    {children}
+    {location.pathname != "/" && footer}
+  </div>
+)
 
 injectGlobal`
 hr {

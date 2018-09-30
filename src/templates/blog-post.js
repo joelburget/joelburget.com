@@ -1,16 +1,19 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import { graphql } from 'gatsby'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
+import Layout from "../components/layout"
 
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
     const { previous, next } = this.props.pathContext
+    const { location } = this.props;
 
     return (
-      <div>
+      <Layout location={location}>
         <Helmet
           title={`${post.frontmatter.title} | ${siteTitle}`}
         >
@@ -19,8 +22,7 @@ class BlogPostTemplate extends React.Component {
         </Helmet>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
 
-        {this.props.location.pathname != "/" &&
-         this.props.location.pathname != "/resume" && (
+        {location.pathname != "/" && location.pathname != "/resume" && (
           <ul
             style={{
               display: 'flex',
@@ -47,7 +49,7 @@ class BlogPostTemplate extends React.Component {
             )}
           </ul>
         )}
-      </div>
+      </Layout>
     )
   }
 }

@@ -1,13 +1,15 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import { StaticQuery, graphql } from 'gatsby'
 import Link from 'gatsby-link'
+import Layout from "../components/layout"
 
 export default function Posts(props) {
   const siteTitle = props.data.site.siteMetadata.title
   const posts = props.data.allMarkdownRemark.edges
 
   return (
-    <div>
+    <Layout location={props.location}>
       <Helmet title={siteTitle} />
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
@@ -23,7 +25,7 @@ export default function Posts(props) {
           </div>
         )
       })}
-    </div>
+    </Layout>
   );
 }
 
