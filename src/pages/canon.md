@@ -11,20 +11,26 @@ Inspired by [Duncan Graham's canon](http://dvncan.com/canon.html), and transitiv
 
 This is a work in progress.
 
-### Math / Computing / Physics
+### Math
 
-* [Scott Aaronson](http://www.scottaaronson.com/blog/) writes about quantum computing.
 * [John Baez](https://johncarlosbaez.wordpress.com/) is prolific, but does amazing work in category theory and quantum computation.
-* Structure and Interpretation of Computer Programs (and Classical Mechanics) -- I somehow discovered SICP at around the same time as Gödel, Escher, Bach (must have found a list of classics online). The combined force of the two of them turned me on to Computer Science. Though it's an introductory book, it goes *deep*.
-* Epigram, NuPRL -- For shaping my view of how programming languages can and should work.
+* Brendan Fong and David Spivak -- Authors of [Seven Sketches in Compositionality](https://arxiv.org/abs/1803.05316), [Backprop as Functor](https://arxiv.org/abs/1711.10455), and more.
 * [The HoTT book](https://homotopytypetheory.org/book/)
 * Per Martin-Löf
+
+### Computing
+
+* Epigram, NuPRL -- For shaping my view of how programming languages can and should work.
 * [Conor McBride](http://strictlypositive.org/)
 * [Simon Peyton-Jones](https://www.microsoft.com/en-us/research/people/simonpj/)
-* [You and Your Research](http://www.cs.virginia.edu/~robins/YouAndYourResearch.html) -- Richard Hamming
-* Richard Feynman -- For his tireless push to simplify and understand (then explain). "Surely you're Joking" is a template for living a good life while doing good, intellectual work. Also great: [What Problems to Solve](http://genius.cat-v.org/richard-feynman/writtings/letters/problems).
-* Bertrand Russell
 * John Carmack
+* Structure and Interpretation of Computer Programs (and Classical Mechanics) -- I somehow discovered SICP at around the same time as Gödel, Escher, Bach (must have found a list of classics online). The combined force of the two of them turned me on to Computer Science. Though it's an introductory book, it goes deep.
+
+### Physics
+
+* [Scott Aaronson](http://www.scottaaronson.com/blog/) writes about quantum computing.
+* Richard Feynman -- For his tireless push to simplify and understand (then explain). "Surely you're Joking" is a template for living a good life while doing good, intellectual work. Also great: [What Problems to Solve](http://genius.cat-v.org/richard-feynman/writtings/letters/problems).
+* Maxwell's Equations / General Relativity / QED
 
 ### Rationality
 
@@ -53,12 +59,12 @@ This is a work in progress.
 * Hitchhiker's Guide to the Galaxy
 * Dune
 * Neil Gaiman anything, especially Sandman
-* Surely You're Joking, Mr. Feyman!
+* Surely You're Joking, Mr. Feyman! (as well as QED)
 * The Book of the New Sun
+* Harry Potter and the Methods of Rationality
 
 ### Misc
 
 * Bret Victor -- Inventing on Principle is a classic closely related to my interests, but it's just one example of consistently great work from Bret.
-* [Ben Kamens](http://bjk5.com), [Andy Matuschak](https://andymatuschak.org), [Ben Alpert](http://benalpert.com), [Craig Silverstein](https://en.wikipedia.org/wiki/Craig_Silverstein) -- Enough people I've never met. These are some of the best engineers I've ever worked with, who each taught me something about making great software. I'm grateful for having learned from each of you.
-* Elon Musk
-* Maxwell's Equations / General Relativity / QED
+* Bertrand Russell
+* [You and Your Research](http://www.cs.virginia.edu/~robins/YouAndYourResearch.html) -- Richard Hamming
