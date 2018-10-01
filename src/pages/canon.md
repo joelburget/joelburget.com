@@ -59,9 +59,11 @@ This is a work in progress.
 * Hitchhiker's Guide to the Galaxy
 * Dune
 * Neil Gaiman anything, especially Sandman
-* Surely You're Joking, Mr. Feyman! (as well as QED)
-* The Book of the New Sun
-* Harry Potter and the Methods of Rationality
+* Surely You're Joking, Mr. Feyman! (as well as [QED](https://press.princeton.edu/titles/8169.html))
+* [The Book of the New Sun](https://en.wikipedia.org/wiki/The_Book_of_the_New_Sun)
+* [Harry Potter and the Methods of Rationality](http://www.hpmor.com/)
+* The Hitchhiker's Guide to the Galaxy
+* [Stories of Your Life and Others](https://en.wikipedia.org/wiki/Stories_of_Your_Life_and_Others). Or anything by Ted Chiang ([The Merchant and the Alchemist's Gate](https://en.wikipedia.org/wiki/The_Merchant_and_the_Alchemist%27s_Gate) is very good)
 
 ### Misc
 
