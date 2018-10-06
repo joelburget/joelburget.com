@@ -1,14 +1,15 @@
 {
-  "name": "gatsby-starter-blog",
-  "description": "Starter Gatsby Blog",
+  "name": "joelburget-dot-com",
+  "description": "Source for joelburget.com",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Joel Burget <joelburget@gmail.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby-starter-blog/issues"
+    "url": "https://github.com/joelburget/blog"
   },
   "dependencies": {
     "emotion": "^9.2.10",
     "gatsby": "^2.0.12",
+    "gatsby-cli": "^2.4.2",
     "gatsby-link": "^2.0.2",
     "gatsby-plugin-emotion": "^2.0.5",
     "gatsby-plugin-feed": "^2.0.5",
@@ -40,15 +41,13 @@
     "gh-pages": "^2.0.0",
     "prettier": "^1.14.3"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
-  "keywords": [
-    "gatsby"
-  ],
+  "homepage": "https://github.com/joelburget/blog",
+  "keywords": [],
   "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+git@github.com:joelburget/blog.git"
   },
   "scripts": {
     "dev": "gatsby develop",
