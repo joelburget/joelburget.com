@@ -5,6 +5,7 @@ permalink: /
 date: 2000-01-01
 listed: false
 ---
+
 # Joel Burget
 
 I'm a software developer from the US. I cofounded [Monic](https://www.monic.co/), where we work on verifying the correctness of software systems.

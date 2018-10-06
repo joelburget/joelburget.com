@@ -15,7 +15,6 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
             allMarkdownRemark(
               sort: { order: DESC, fields: [frontmatter___date] }
               limit: 1000
-              filter: { frontmatter: { listed: { eq: true } } }
             ) {
               edges {
                 node {
@@ -24,6 +23,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
                   }
                   frontmatter {
                     title
+                    listed
                   }
                 }
               }
@@ -40,9 +40,8 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
         const posts = result.data.allMarkdownRemark.edges;
 
         _.each(posts, (post, index) => {
-          const next = index === 0 ? null : posts[index - 1].node
-          const prev =
-            index === posts.length - 1 ? null : posts[index + 1].node
+          const next = findListed(posts, index, i => i + 1);
+          const prev = findListed(posts, index, i => i - 1);
 
           createPage({
             path: post.node.fields.slug,
@@ -57,6 +56,19 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
       })
     )
   })
+}
+
+function findListed(posts, start, next) {
+  const len = posts.length;
+  let i = start;
+  while (i >= 0 && i < len) {
+    const post = posts[i];
+    if (post.node.frontmatter.listed) {
+      return post.node;
+    }
+    i = next(i);
+  }
+  return null
 }
 
 exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
