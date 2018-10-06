@@ -40,16 +40,16 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
         const posts = result.data.allMarkdownRemark.edges;
 
         _.each(posts, (post, index) => {
-          const next = index === 0 ? null : blogPosts[index - 1].node
+          const next = index === 0 ? null : posts[index - 1].node
           const prev =
-            index === blogPosts.length - 1 ? null : blogPosts[index + 1].node
+            index === posts.length - 1 ? null : posts[index + 1].node
 
           createPage({
             path: post.node.fields.slug,
             component: blogPost,
             context: {
               slug: post.node.fields.slug,
-              previous,
+              prev,
               next,
             },
           })
