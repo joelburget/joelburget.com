@@ -41,3 +41,33 @@ Abtract:
 > The well-know needle experiment of Buffon can be regarded as an analog (i.e., continuous) device that stochastically "computes" the number 2/pi ~ 0.63661, which is the experiment's probability of success. Generalizing the experiment and simplifying the computational framework, we consider probability distributions, which can be produced perfectly, from a discrete source of unbiased coin flips. We describe and analyse a few simple Buffon machines that generate geometric, Poisson, and logarithmic-series distributions. We provide human-accessible Buffon machines, which require a dozen coin flips or less, on average, and produce experiments whose probabilities of success are expressible in terms of numbers such as, exp(-1), log 2, sqrt(3), cos(1/4), aeta(5). Generally, we develop a collection of constructions based on simple probabilistic mechanisms that enable one to design Buffon experiments involving compositions of exponentials and logarithms, polylogarithms, direct and inverse trigonometric functions, algebraic and hypergeometric functions, as well as functions defined by integrals, such as the Gaussian error function.
 
 [Haskell implementation](https://github.com/derekelkins/buffon)
+
+## [Regular Bands](https://en.wikipedia.org/wiki/Band_(mathematics))
+
+![](/bands.svg)
+
+## [STOKE](http://stoke.stanford.edu/)
+
+> STOKE is a stochastic optimizer and program synthesizer for the x86-64 instruction set. STOKE uses random search to explore the extremely high-dimensional space of all possible program transformations. Although any one random transformation is unlikely to produce a code sequence that is desirable, the repeated application of millions of transformations is sufficient to produce novel and non-obvious code sequences. STOKE can be used in many different scenarios, such as optimizing code for performance or size, synthesizing an implementation from scratch or to trade accuracy of floating point computations for performance. As a superoptimizer, STOKE has been shown to outperform the code produced by general-purpose and domain-specific compilers, and in some cases expert hand-written code.
+
+## [Ersatz](http://hackage.haskell.org/package/ersatz-0.4.4)
+
+> A monad for expressing SAT or QSAT problems using observable sharing.
+
+## [Sturdy](https://github.com/svenkeidel/sturdy)
+
+> Haskell library to create abstract interpreters
+
+## [Godel’s interpretation of intuitionism](/Dialectica.pdf)
+
+On the Dialectica interpretation.
+
+## [Real Differences between OT and CRDT for Co-Editors](https://arxiv.org/abs/1810.02137)
+
+Abstract:
+
+> OT (Operational Transformation) was invented for supporting real-time co-editors in the late 1980s and has evolved to become a core technique used in today's working co-editors and adopted in major industrial products. CRDT (Commutative Replicated Data Type) for co-editors was first proposed around 2006, under the name of WOOT (WithOut Operational Transformation). Follow-up CRDT variations are commonly labeled as "post-OT" techniques capable of making concurrent operations natively commutative, and have made broad claims of superiority over OT solutions, in terms of correctness, time and space complexity, simplicity, etc. Over one decade later, however, CRDT solutions are rarely found in working co-editors, while OT solutions remain the choice for building the vast majority of co-editors. Contradictions between this reality and CRDT's purported advantages have been the source of much debate and confusion in co-editing research and developer communities. What is CRDT really to co-editing? What are the real differences between OT and CRDT for co-editors? What are the key factors that may have affected the adoption of and choice between OT and CRDT for co-editors in the real world? In this paper, we report our discoveries, in relation to these questions and beyond, from a comprehensive review and comparison study on representative OT and CRDT solutions and working co-editors based on them. Moreover, this work reveals facts and presents evidences that refute CRDT claimed advantages over OT. We hope the results reported in this paper will help clear up common myths, misconceptions, and confusions surrounding alternative co-editing techniques, and accelerate progress in co-editing technology for real world applications.
+
+## [A Tale of Three Probabilistic Families: Discriminative, Descriptive and Generative Models](https://arxiv.org/abs/1810.04261)
+
+> The pattern theory of Grenander is a mathematical framework where the patterns are represented by probability models on random variables of algebraic structures. In this paper, we review three families of probability models, namely, the discriminative models, the descriptive models, and the generative models. A discriminative model is in the form of a classifier. It specifies the conditional probability of the class label given the input signal. The descriptive model specifies the probability distribution of the signal, based on an energy function defined on the signal. A generative model assumes that the signal is generated by some latent variables via a transformation. We shall review these models within a common framework and explore their connections. We shall also review the recent developments that take advantage of the high approximation capacities of deep neural networks.

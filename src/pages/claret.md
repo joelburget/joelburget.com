@@ -133,3 +133,7 @@ datatype com
 ## Related Work
 
 [Invertible Syntax Descriptions: Unifying Parsing and Pretty Printing](http://www.mathematik.uni-marburg.de/~rendel/rendel10invertible.pdf)
+
+### [The PMS and ISP descriptive systems for computer structures](/claret/pms-isp.pdf)
+
+Maybe useful as prior work for describing low-level systems. Otherwise not interesting.
