@@ -44,6 +44,15 @@ This is a work in progress.
 * [Robin Hanson](http://www.overcomingbias.com/author/robin-hanson)
 * [Bryan Caplan](http://www.bcaplan.com/)
 
+### Business of Software
+
+* [Joel Spolsky](https://www.joelonsoftware.com/)
+* [Paul Graham](http://www.paulgraham.com/articles.html)
+* [patio11 (Patrick McKenzie)](https://www.kalzumeus.com/greatest-hits/)
+* [A Smart Bear (Jason Cohen)](https://blog.asmartbear.com/)
+* [Derek Sivers](https://sivers.org/blog)
+* [Zero to One](http://zerotoonebook.com/about/)
+
 ### Books
 
 * Calvin & Hobbes -- My favorite comic ever. I think every reader saw themselves in Calvin, his imagination and refusal to follow the rules. Credit to Bill Watterson for creating consistently great content and ending the strip before the content ever got stale.
