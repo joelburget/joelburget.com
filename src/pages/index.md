@@ -8,7 +8,7 @@ listed: false
 
 # Joel Burget
 
-I'm a software developer from the US. I cofounded [Monic](https://www.monic.co/), where we work on verifying the correctness of software systems.
+I'm a software developer working on developer productivity at Google.
 
 I'm also interested in functional programming, programming languages, machine learning, logic, and category theory.
 
