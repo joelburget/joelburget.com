@@ -9,11 +9,11 @@ listed: false
 
 ### Work
 
-At [Monic](https://monic.co), working on the [Pact property checking system](http://blog.monic.co/introducing-the-pact-property-checker/)
+At Google, working on developer productivity.
 
 ### Traveling / Exploring
 
-Currently planning to travel to Thailand and South Africa. I'm also still getting to know my new city (Los Angeles).
+Currently planning to travel to South Africa. I'm also still getting to know my new city (Los Angeles).
 
 ### Fiction
 
