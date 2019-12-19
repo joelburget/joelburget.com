@@ -65,10 +65,10 @@ layout specifications
 * `hv`: horizontal-vertical: as many objects as possible should be placed on one line, and a new line begun when there is no more space, with an indentation of `i`
 * `hov`: horizontal-or-vertical: all objects should go on one line or they should be formatted vertically
 
-> The main limitation of Syn seems to b e in its inability to
-> sensitive features such as user􏰄de􏰌ned in􏰌x op erators􏰆 Nor is it
-> guages that use formatting information such as indentation to
-> structure and the like􏰆
+> The main limitation of Syn seems to be in its inability to
+> sensitive features such as user-defined infix operators. Nor is it suitable for
+> languages that use formatting information such as indentation to determine block
+> structure and the like.
 
 ## CLaReT
 
