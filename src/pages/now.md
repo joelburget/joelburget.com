@@ -11,36 +11,31 @@ listed: false
 
 At Google, working on developer productivity.
 
+### Personal Projects
+
+Mostly working on [LVCA](https://lvca.dev), exploring ideas for how I would like programming to work.
+
 ### Traveling / Exploring
 
-Currently planning to travel to South Africa. I'm also still getting to know my new city (Los Angeles).
+Mostly on-hold due to COVID-19.
 
 ### Fiction
 
-  - [Infinite Jest](https://en.wikipedia.org/wiki/Infinite_Jest) (I've been reading this for, like, a year)
-  - [Hero with a Thousand Faces](https://en.wikipedia.org/wiki/The_Hero_with_a_Thousand_Faces)
-  - [Peace (Gene Wolfe)](https://en.wikipedia.org/wiki/Peace_(novel))
+  - [The Collected Stories of Joseph Conrad](https://www.amazon.com/Collected-Stories-Joseph-Conrad/dp/0880014644/)
+  - Anna Karenina
+  - I've also been listening to the [Alzabo Soup](https://alzabosoup.libsyn.com/) podcast on [Gene Wolfe](https://www.newyorker.com/books/page-turner/sci-fis-difficult-genius)
 
 ### Nonfiction
 
-  - [Category Theory for Computing Science](https://www.amazon.com/Category-Theory-Computing-Science-Michael/dp/0131204866)
   - [Gauge Fields, Knots and Gravity](https://www.amazon.com/GAUGE-FIELDS-KNOTS-GRAVITY-Everything/dp/9810220340/)
-  - [Introduction to Coalgebra](https://www.cambridge.org/core/books/introduction-to-coalgebra/0D508876D20D95E17871320EADC185C6)
   - [Calculus on Manifolds](https://www.amazon.com/Calculus-Manifolds-Approach-Classical-Theorems/dp/0805390219)
   - [Functional Differential Geometry](https://mitpress.mit.edu/books/functional-differential-geometry)
-  - [The Blind Spot](https://www.amazon.com/Blind-Spot-Lectures-Logic/dp/3037190884)
-  - [Structure and Interpretation of Classical Mechanics](https://mitpress.mit.edu/books/structure-and-interpretation-classical-mechanics-second-edition)
 
 ### Writing
 
-  - "A Funny Thing Happened on the Way to the Future"
-  - My First Linux Computer -- my XBox
-  - NuPRL Experience Report
+I'm ramping back up after a hiatus. My plan is to post at least biweekly here and on [lvca.dev](https://lvca.dev/).
 
 ### Cooking
 
-Books I've been cooking from:
-* [Washoku](https://www.amazon.com/Washoku-Recipes-Japanese-Home-Kitchen/dp/1580085199/)
-* [The Drinking Food of Thailand](https://www.amazon.com/POK-Drinking-Food-Thailand-Cookbook/dp/1607747731/)
-* [Mission Chinese Food Cookbook](https://www.amazon.com/Mission-Chinese-Food-Cookbook/dp/0062243411)
-* [Land of Fish and Rice](https://www.amazon.com/Land-Fish-Rice-Recipes-Culinary/dp/0393254380/)
+I've been cooking a lot from [The Food of Northern Thailand](https://www.austinbushphotography.com/the-food-of-northern-thailand) and [The Woks of Life](https://thewoksoflife.com/).
+
