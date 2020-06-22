@@ -7,18 +7,18 @@
     "url": "https://github.com/joelburget/blog"
   },
   "dependencies": {
-    "emotion": "^9.2.10",
+    "emotion": "^10.0.27",
     "gatsby": "^2.0.12",
     "gatsby-cli": "^2.4.2",
     "gatsby-link": "^2.0.2",
-    "gatsby-plugin-emotion": "^2.0.5",
+    "gatsby-plugin-emotion": "^4.3.4",
     "gatsby-plugin-feed": "^2.0.5",
     "gatsby-plugin-google-analytics": "^2.0.6",
-    "gatsby-plugin-offline": "^2.0.5",
+    "gatsby-plugin-offline": "^3.2.11",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-sharp": "^2.0.5",
     "gatsby-remark-copy-linked-files": "^2.0.5",
-    "gatsby-remark-images": "^2.0.3",
+    "gatsby-remark-images": "^3.3.11",
     "gatsby-remark-prismjs": "^3.0.1",
     "gatsby-remark-responsive-iframe": "^2.0.5",
     "gatsby-remark-smartypants": "^2.0.5",
@@ -29,17 +29,17 @@
     "prismjs": "^1.15.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-emotion": "^9.2.10",
-    "react-helmet": "^5.2.0",
-    "typeface-merriweather": "0.0.54",
-    "typeface-montserrat": "0.0.54"
+    "react-emotion": "^10.0.0",
+    "react-helmet": "^6.1.0",
+    "typeface-merriweather": "0.0.72",
+    "typeface-montserrat": "0.0.75"
   },
   "devDependencies": {
-    "emotion-server": "^9.2.10",
-    "eslint": "^5.6.1",
+    "emotion-server": "^10.0.27",
+    "eslint": "^7.3.0",
     "eslint-plugin-react": "^7.11.1",
-    "gh-pages": "^2.0.0",
-    "prettier": "^1.14.3"
+    "gh-pages": "^3.1.0",
+    "prettier": "^2.0.5"
   },
   "homepage": "https://github.com/joelburget/blog",
   "keywords": [],
