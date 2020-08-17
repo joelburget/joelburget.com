@@ -10,7 +10,6 @@
     "@mdx-js/mdx": "^1.6.16",
     "@mdx-js/react": "^1.6.16",
     "@pauliescanlon/gatsby-mdx-embed": "^0.0.27",
-    "emotion": "^10.0.27",
     "gatsby": "^2.0.12",
     "gatsby-cli": "^2.4.2",
     "gatsby-link": "^2.0.2",
