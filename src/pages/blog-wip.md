@@ -69,6 +69,4 @@ Also, some suggestions from HN, Reddit, Twitter:
 
 ## Tweets
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Software interfaces undervalue peripheral vision! (a thread)<br><br>My physical space is full of subtle cues. Books I read or bought most recently are lying out. Papers are lying in stacks on my desk, roughly arranged by their relationships. <a href="https://t.co/ee7lo0mdLv">pic.twitter.com/ee7lo0mdLv</a></p>&mdash; Andy Matuschak (@andy_matuschak) <a href="https://twitter.com/andy_matuschak/status/1202663202997170176?ref_src=twsrc%5Etfw">December 5, 2019</a></blockquote>
-
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<Tweet tweetLink="andy_matuschak/status/1202663202997170176" />

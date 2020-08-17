@@ -12,7 +12,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
       graphql(
         `
           {
-            allMarkdownRemark(
+            allMdx(
               sort: { order: DESC, fields: [frontmatter___date] }
               limit: 1000
             ) {
@@ -37,7 +37,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
         }
 
         // Create blog posts pages.
-        const posts = result.data.allMarkdownRemark.edges;
+        const posts = result.data.allMdx.edges;
 
         _.each(posts, (post, index) => {
           const next = findListed(posts, index, i => i + 1);
@@ -74,7 +74,7 @@ function findListed(posts, start, next) {
 exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
   const { createNodeField } = boundActionCreators
 
-  if (node.internal.type === `MarkdownRemark`) {
+  if (node.internal.type === `Mdx`) {
     const value = createFilePath({ node, getNode })
     createNodeField({
       name: `slug`,

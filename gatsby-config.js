@@ -14,10 +14,12 @@ module.exports = {
         name: 'pages',
       },
     },
+
     {
-      resolve: `gatsby-transformer-remark`,
+      resolve: `gatsby-plugin-mdx`,
       options: {
-        plugins: [
+        extensions: [`.mdx`, `.md`],
+        gatsbyRemarkPlugins: [
           {
             resolve: `gatsby-remark-images`,
             options: {
@@ -34,8 +36,14 @@ module.exports = {
           'gatsby-remark-copy-linked-files',
           'gatsby-remark-smartypants',
         ],
-      },
+        defaultLayouts: {
+          default: require.resolve("./src/components/layout.js"),
+        },
+      }
     },
+
+    `@pauliescanlon/gatsby-mdx-embed`,
+
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -44,7 +52,7 @@ module.exports = {
         //trackingId: `ADD YOUR TRACKING ID HERE`,
       },
     },
-    `gatsby-plugin-feed`,
+    `gatsby-plugin-feed-mdx`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
   ],

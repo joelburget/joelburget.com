@@ -54,8 +54,8 @@ We're implicitly filling in columns of a table.
  <thead>
  <tr>
   <td></td>
-  <th><code>class Cat {</code></th>
-  <th><code>class Fox {</code></th>
+  <th><code>{"class Cat {"}</code></th>
+  <th><code>{"class Fox {"}</code></th>
  </tr>
  </thead>
  <tfoot>
@@ -68,16 +68,17 @@ We're implicitly filling in columns of a table.
  <tbody>
  <tr>
   <td><code>sound</code></td>
-  <td><pre><code>    def sound {...}</code></pre></td>
-  <td><pre><code>    def sound {...}</code></pre></td>
+  <td><pre><code>{"    def sound {...}"}</code></pre></td>
+  <td><pre><code>{"    def sound {...}"}</code></pre></td>
  </tr>
  <tr>
   <td><code>eat</code></td>
-  <td><pre><code>    def eat {...}</code></pre></td>
-  <td><pre><code>    def eat {...}</code></pre></td>
+  <td><pre><code>{"    def eat {...}"}</code></pre></td>
+  <td><pre><code>{"    def eat {...}"}</code></pre></td>
  </tr>
  </tbody>
 </table>
+
 
 It's relatively easy to add a new datatype (ie a column). It's all contained in a new class declaration.
 
@@ -92,9 +93,9 @@ class Bat {
  <thead>
  <tr>
   <td></td>
-  <th class="existing"><code>class Cat {</code></th>
-  <th class="existing"><code>class Fox {</code></th>
-  <th class="modified"><code>class Bat {</code></th>
+  <th class="existing"><code>{"class Cat {"}</code></th>
+  <th class="existing"><code>{"class Fox {"}</code></th>
+  <th class="modified"><code>{"class Bat {"}</code></th>
  </tr>
  </thead>
  <tfoot>
@@ -108,18 +109,19 @@ class Bat {
  <tbody>
  <tr>
   <td><code>sound</code></td>
-  <td class="existing"><pre><code>    def sound {...}</code></pre></td>
-  <td class="existing"><pre><code>    def sound {...}</code></pre></td>
-  <td class="modified"><pre><code>    def sound {...}</code></pre></td>
+  <td class="existing"><pre><code>{"    def sound {...}"}</code></pre></td>
+  <td class="existing"><pre><code>{"    def sound {...}"}</code></pre></td>
+  <td class="modified"><pre><code>{"    def sound {...}"}</code></pre></td>
  </tr>
  <tr>
   <td><code>eat</code></td>
-  <td class="existing"><pre><code>    def eat {...}</code></pre></td>
-  <td class="existing"><pre><code>    def eat {...}</code></pre></td>
-  <td class="modified"><pre><code>    def eat {...}</code></pre></td>
+  <td class="existing"><pre><code>{"    def eat {...}"}</code></pre></td>
+  <td class="existing"><pre><code>{"    def eat {...}"}</code></pre></td>
+  <td class="modified"><pre><code>{"    def eat {...}"}</code></pre></td>
  </tr>
  </tbody>
 </table>
+
 
 To add a new action (ie a row) is more difficult. We need to open up all the objects (columns) to modify them.
 
@@ -127,32 +129,32 @@ To add a new action (ie a row) is more difficult. We need to open up all the obj
  <thead>
  <tr>
   <td></td>
-  <th class="existing"><code>class Cat {</code></th>
-  <th class="existing"><code>class Fox {</code></th>
+  <th class="existing"><code>{"class Cat {"}</code></th>
+  <th class="existing"><code>{"class Fox {"}</code></th>
  </tr>
  </thead>
  <tfoot>
  <tr>
  <td></td>
- <td class="existing">}</td>
- <td class="existing">}</td>
+ <td class="existing">{"}"}</td>
+ <td class="existing">{"}"}</td>
  </tr>
  </tfoot>
  <tbody>
  <tr>
   <td><code>sound</code></td>
-  <td class="existing"><pre><code>    def sound {...}</code></pre></td>
-  <td class="existing"><pre><code>    def sound {...}</code></pre></td>
+  <td class="existing"><pre><code>{"    def sound {...}"}</code></pre></td>
+  <td class="existing"><pre><code>{"    def sound {...}"}</code></pre></td>
  </tr>
  <tr>
   <td><code>eat</code></td>
-  <td class="existing"><pre><code>    def eat {...}</code></pre></td>
-  <td class="existing"><pre><code>    def eat {...}</code></pre></td>
+  <td class="existing"><pre><code>{"    def eat {...}"}</code></pre></td>
+  <td class="existing"><pre><code>{"    def eat {...}"}</code></pre></td>
  </tr>
  <tr>
   <td><code>attack</code></td>
-  <td class="modified"><pre><code>    def attack {...}</code></pre></td>
-  <td class="modified"><pre><code>    def attack {...}</code></pre></td>
+  <td class="modified"><pre><code>{"    def attack {...}"}</code></pre></td>
+  <td class="modified"><pre><code>{"    def attack {...}"}</code></pre></td>
  </tr>
  </tbody>
 </table>
@@ -189,13 +191,13 @@ eat = {...}
  <tbody>
   <tr>
    <td><code>sound</code></td>
-   <td><code>Cat -> {...}</code></td>
-   <td><code>Fox -> {...}</code></td>
+   <td><code>{"Cat -> {...}"}</code></td>
+   <td><code>{"Fox -> {...}"}</code></td>
   </tr>
   <tr>
    <td><code>eat</code></td>
-   <td><code>Cat -> {...}</code></td>
-   <td><code>Fox -> {...}</code></td>
+   <td><code>{"Cat -> {...}"}</code></td>
+   <td><code>{"Fox -> {...}"}</code></td>
   </tr>
  </tbody>
 </table>
@@ -220,18 +222,18 @@ attack Bat = {...}
  <tbody>
   <tr>
    <td class="existing"><code>sound</code></td>
-   <td class="existing"><code>Cat -> {}</code></td>
-   <td class="existing"><code>Fox -> {}</code></td>
+   <td class="existing"><code>{"Cat -> {}"}</code></td>
+   <td class="existing"><code>{"Fox -> {}"}</code></td>
   </tr>
   <tr>
    <td class="existing"><code>eat</code></td>
-   <td class="existing"><code>Cat -> {}</code></td>
-   <td class="existing"><code>Fox -> {}</code></td>
+   <td class="existing"><code>{"Cat -> {}"}</code></td>
+   <td class="existing"><code>{"Fox -> {}"}</code></td>
   </tr>
   <tr>
    <td class="modified"><code>attack</code></td>
-   <td class="modified"><code>Cat -> {}</code></td>
-   <td class="modified"><code>Fox -> {}</code></td>
+   <td class="modified"><code>{"Cat -> {}"}</code></td>
+   <td class="modified"><code>{"Fox -> {}"}</code></td>
   </tr>
  </tbody>
 </table>
@@ -262,15 +264,15 @@ eat = {...}
  <tbody>
   <tr>
    <td><code>sound</code></td>
-   <td class="existing"><code>Cat -> {...}</code></td>
-   <td class="existing"><code>Fox -> {...}</code></td>
-   <td class="modified"><code>Bat -> {...}</code></td>
+   <td class="existing"><code>{"Cat -> {...}"}</code></td>
+   <td class="existing"><code>{"Fox -> {...}"}</code></td>
+   <td class="modified"><code>{"Bat -> {...}"}</code></td>
   </tr>
   <tr>
    <td><code>eat</code></td>
-   <td class="existing"><code>Cat -> {...}</code></td>
-   <td class="existing"><code>Fox -> {...}</code></td>
-   <td class="modified"><code>Bat -> {...}</code></td>
+   <td class="existing"><code>{"Cat -> {...}"}</code></td>
+   <td class="existing"><code>{"Fox -> {...}"}</code></td>
+   <td class="modified"><code>{"Bat -> {...}"}</code></td>
   </tr>
  </tbody>
 </table>
@@ -298,21 +300,21 @@ Imagine using tables as a first-class programming interface, where you can scan 
  <tbody>
   <tr>
    <td><code>sound</code></td>
-   <td class="existing"><code>Cat -> {...}</code></td>
-   <td class="existing"><code>Fox -> {...}</code></td>
-   <td class="modified"><code>Bat -> {...}</code></td>
+   <td class="existing"><code>{"Cat -> {...}"}</code></td>
+   <td class="existing"><code>{"Fox -> {...}"}</code></td>
+   <td class="modified"><code>{"Bat -> {...}"}</code></td>
   </tr>
   <tr>
    <td><code>eat</code></td>
-   <td class="existing"><code>Cat -> {...}</code></td>
-   <td class="existing"><code>Fox -> {...}</code></td>
-   <td class="modified"><code>Bat -> {...}</code></td>
+   <td class="existing"><code>{"Cat -> {...}"}</code></td>
+   <td class="existing"><code>{"Fox -> {...}"}</code></td>
+   <td class="modified"><code>{"Bat -> {...}"}</code></td>
   </tr>
   <tr>
    <td><code>attack</code></td>
-   <td class="modified"><code>Cat -> {...}</code></td>
-   <td class="modified"><code>Fox -> {...}</code></td>
-   <td class="modified"><code>Bat -> {...}</code></td>
+   <td class="modified"><code>{"Cat -> {...}"}</code></td>
+   <td class="modified"><code>{"Fox -> {...}"}</code></td>
+   <td class="modified"><code>{"Bat -> {...}"}</code></td>
   </tr>
  </tbody>
 </table>
@@ -339,21 +341,21 @@ Additionally, by treating the table as an object in our programming environment,
  <tbody>
   <tr>
    <td class="no-hl"><code>sound</code></td>
-   <td class="no-hl"><code>Cat -> {...}</code></td>
-   <td class="no-hl"><code>Fox -> {...}</code></td>
-   <td class="no-hl"><code>Bat -> {...}</code></td>
+   <td class="no-hl"><code>{"Cat -> {...}"}</code></td>
+   <td class="no-hl"><code>{"Fox -> {...}"}</code></td>
+   <td class="no-hl"><code>{"Bat -> {...}"}</code></td>
   </tr>
   <tr>
    <td class="hl"><code>eat</code></td>
-   <td class="hl"><code>Cat -> {...}</code></td>
-   <td class="hl"><code>Fox -> {...}</code></td>
-   <td class="hl"><code>Bat -> {...}</code></td>
+   <td class="hl"><code>{"Cat -> {...}"}</code></td>
+   <td class="hl"><code>{"Fox -> {...}"}</code></td>
+   <td class="hl"><code>{"Bat -> {...}"}</code></td>
   </tr>
   <tr>
    <td class="no-hl"><code>attack</code></td>
-   <td class="no-hl"><code>Cat -> {...}</code></td>
-   <td class="no-hl"><code>Fox -> {...}</code></td>
-   <td class="no-hl"><code>Bat -> {...}</code></td>
+   <td class="no-hl"><code>{"Cat -> {...}"}</code></td>
+   <td class="no-hl"><code>{"Fox -> {...}"}</code></td>
+   <td class="no-hl"><code>{"Bat -> {...}"}</code></td>
   </tr>
  </tbody>
 </table>
@@ -374,21 +376,21 @@ Additionally, by treating the table as an object in our programming environment,
  <tbody>
   <tr>
    <td class="no-hl"><code>sound</code></td>
-   <td class="no-hl"><code>Cat -> {...}</code></td>
-   <td class="no-hl"><code>Fox -> {...}</code></td>
-   <td class="hl"><code>Bat -> {...}</code></td>
+   <td class="no-hl"><code>{"Cat -> {...}"}</code></td>
+   <td class="no-hl"><code>{"Fox -> {...}"}</code></td>
+   <td class="hl"><code>{"Bat -> {...}"}</code></td>
   </tr>
   <tr>
    <td class="no-hl"><code>eat</code></td>
-   <td class="no-hl"><code>Cat -> {...}</code></td>
-   <td class="hl"><code>Fox -> {...}</code></td>
-   <td class="no-hl"><code>Bat -> {...}</code></td>
+   <td class="no-hl"><code>{"Cat -> {...}"}</code></td>
+   <td class="hl"><code>{"Fox -> {...}"}</code></td>
+   <td class="no-hl"><code>{"Bat -> {...}"}</code></td>
   </tr>
   <tr>
    <td class="no-hl"><code>attack</code></td>
-   <td class="no-hl"><code>Cat -> {...}</code></td>
-   <td class="no-hl"><code>Fox -> {...}</code></td>
-   <td class="no-hl"><code>Bat -> {...}</code></td>
+   <td class="no-hl"><code>{"Cat -> {...}"}</code></td>
+   <td class="no-hl"><code>{"Fox -> {...}"}</code></td>
+   <td class="no-hl"><code>{"Bat -> {...}"}</code></td>
   </tr>
  </tbody>
 </table>
@@ -422,21 +424,21 @@ Then you could query interesting things, like:
  <tbody>
   <tr>
    <td class="no-hl"><code>sound</code></td>
-   <td class="no-hl"><code>Cat -> {...}</code></td>
-   <td class="no-hl"><code>Fox -> {...}</code></td>
-   <td class="no-hl"><code>Bat -> {...}</code></td>
+   <td class="no-hl"><code>{"Cat -> {...}"}</code></td>
+   <td class="no-hl"><code>{"Fox -> {...}"}</code></td>
+   <td class="no-hl"><code>{"Bat -> {...}"}</code></td>
   </tr>
   <tr>
    <td class="modified"><code>eat</code></td>
-   <td class="no-hl"><code>Cat -> {...}</code></td>
-   <td class="modified"><code>Fox -> {...}</code></td>
-   <td class="no-hl"><code>Bat -> {...}</code></td>
+   <td class="no-hl"><code>{"Cat -> {...}"}</code></td>
+   <td class="modified"><code>{"Fox -> {...}"}</code></td>
+   <td class="no-hl"><code>{"Bat -> {...}"}</code></td>
   </tr>
   <tr>
    <td class="no-hl"><code>attack</code></td>
-   <td class="no-hl"><code>Cat -> {...}</code></td>
-   <td class="no-hl"><code>Fox -> {...}</code></td>
-   <td class="no-hl"><code>Bat -> {...}</code></td>
+   <td class="no-hl"><code>{"Cat -> {...}"}</code></td>
+   <td class="no-hl"><code>{"Fox -> {...}"}</code></td>
+   <td class="no-hl"><code>{"Bat -> {...}"}</code></td>
   </tr>
  </tbody>
 </table>
@@ -457,21 +459,21 @@ Then you could query interesting things, like:
  <tbody>
   <tr>
    <td class="no-hl"><code>sound</code></td>
-   <td class="no-hl"><code>Cat -> {...}</code></td>
-   <td class="no-hl"><code>Fox -> {...}</code></td>
-   <td class="no-hl"><code>Bat -> {...}</code></td>
+   <td class="no-hl"><code>{"Cat -> {...}"}</code></td>
+   <td class="no-hl"><code>{"Fox -> {...}"}</code></td>
+   <td class="no-hl"><code>{"Bat -> {...}"}</code></td>
   </tr>
   <tr>
    <td class="no-hl"><code>eat</code></td>
-   <td class="no-hl"><code>Cat -> {...}</code></td>
-   <td class="no-hl"><code>Fox -> {...}</code></td>
-   <td class="no-hl"><code>Bat -> {...}</code></td>
+   <td class="no-hl"><code>{"Cat -> {...}"}</code></td>
+   <td class="no-hl"><code>{"Fox -> {...}"}</code></td>
+   <td class="no-hl"><code>{"Bat -> {...}"}</code></td>
   </tr>
   <tr>
    <td class="modified"><code>attack</code></td>
-   <td class="no-hl"><code>Cat -> {...}</code></td>
-   <td class="no-hl"><code>Fox -> {...}</code></td>
-   <td class="modified"><code>Bat -> {...}</code></td>
+   <td class="no-hl"><code>{"Cat -> {...}"}</code></td>
+   <td class="no-hl"><code>{"Fox -> {...}"}</code></td>
+   <td class="modified"><code>{"Bat -> {...}"}</code></td>
   </tr>
  </tbody>
 </table>
@@ -492,21 +494,21 @@ Then you could query interesting things, like:
  <tbody>
   <tr>
    <td class="modified"><code>sound</code></td>
-   <td class="no-hl"><code>Cat -> {...}</code></td>
-   <td class="modified"><code>Fox -> {...}</code></td>
-   <td class="no-hl"><code>Bat -> {...}</code></td>
+   <td class="no-hl"><code>{"Cat -> {...}"}</code></td>
+   <td class="modified"><code>{"Fox -> {...}"}</code></td>
+   <td class="no-hl"><code>{"Bat -> {...}"}</code></td>
   </tr>
   <tr>
    <td class="no-hl"><code>eat</code></td>
-   <td class="no-hl"><code>Cat -> {...}</code></td>
-   <td class="no-hl"><code>Fox -> {...}</code></td>
-   <td class="no-hl"><code>Bat -> {...}</code></td>
+   <td class="no-hl"><code>{"Cat -> {...}"}</code></td>
+   <td class="no-hl"><code>{"Fox -> {...}"}</code></td>
+   <td class="no-hl"><code>{"Bat -> {...}"}</code></td>
   </tr>
   <tr>
    <td class="no-hl"><code>attack</code></td>
-   <td class="no-hl"><code>Cat -> {...}</code></td>
-   <td class="no-hl"><code>Fox -> {...}</code></td>
-   <td class="no-hl"><code>Bat -> {...}</code></td>
+   <td class="no-hl"><code>{"Cat -> {...}"}</code></td>
+   <td class="no-hl"><code>{"Fox -> {...}"}</code></td>
+   <td class="no-hl"><code>{"Bat -> {...}"}</code></td>
   </tr>
  </tbody>
 </table>
@@ -539,11 +541,11 @@ First a couple tables implementing the operations for the parent class.
 <tbody>
 <tr class="odd">
 <td align="left"><code>sound</code></td>
-<td align="left">{…}</td>
+<td align="left">{"{...}"}</td>
 </tr>
 <tr class="even">
 <td align="left"><code>eat</code></td>
-<td align="left">{…}</td>
+<td align="left">{"{...}"}</td>
 </tr>
 </tbody>
 </table>
@@ -561,11 +563,11 @@ First a couple tables implementing the operations for the parent class.
 <tbody>
 <tr class="odd">
 <td align="left"><code>power up</code></td>
-<td align="left">{…}</td>
+<td align="left">{"{...}"}</td>
 </tr>
 <tr class="even">
 <td align="left"><code>manufacture</code></td>
-<td align="left">{…}</td>
+<td align="left">{"{...}"}</td>
 </tr>
 </tbody>
 </table>

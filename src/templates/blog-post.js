@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
 import Layout from "../components/layout"
+import { MDXRenderer } from "gatsby-plugin-mdx"
 
 const noLinkPages = [
   "/",
@@ -14,7 +15,7 @@ const noLinkPages = [
 
 export default (props) => {
   const { location, pageContext: { previous, next } } = props;
-  const post = props.data.markdownRemark
+  const post = props.data.mdx
   const siteTitle = get(props, 'data.site.siteMetadata.title')
   const showLinks = !noLinkPages.includes(location.pathname);
 
@@ -26,7 +27,7 @@ export default (props) => {
         <link rel="shortcut icon" type="image/png" href="favicon512.png" sizes="512x512" />
         <link rel="shortcut icon" type="image/png" href="favicon600.png" sizes="600x600" />
       </Helmet>
-      <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      <MDXRenderer>{post.body}</MDXRenderer>
 
       {showLinks && (
         <ul
@@ -67,9 +68,9 @@ export const pageQuery = graphql`
         author
       }
     }
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+    mdx(fields: { slug: { eq: $slug } }) {
       id
-      html
+      body
       frontmatter {
         title
       }

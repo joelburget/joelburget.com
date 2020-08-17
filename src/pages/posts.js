@@ -3,10 +3,11 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 import Link from 'gatsby-link'
 import Layout from "../components/layout"
+import { MDXRenderer } from "gatsby-plugin-mdx"
 
 export default function Posts(props) {
   const siteTitle = props.data.site.siteMetadata.title
-  const posts = props.data.allMarkdownRemark.edges
+  const posts = props.data.allMdx.edges
 
   return (
     <Layout location={props.location}>
@@ -21,7 +22,7 @@ export default function Posts(props) {
               </Link>
             </h3>
             <small>{node.frontmatter.date}</small>
-            <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+            <div>{node.excerpt}</div>
           </div>
         )
       })}
@@ -36,7 +37,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(
+    allMdx(
       sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { listed: { eq: true } } }
     ) {
