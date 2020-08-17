@@ -5,11 +5,12 @@ permalink: /now
 date: 2000-01-01
 listed: false
 ---
+
 # What I'm Doing Now
 
 ### Work
 
-At Google, working on developer productivity.
+At Google, 80% working on developer productivity, 20% working on a library for chip layout with the quantum team.
 
 ### Personal Projects
 
@@ -21,8 +22,7 @@ Mostly on-hold due to COVID-19.
 
 ### Fiction
 
-  - [The Collected Stories of Joseph Conrad](https://www.amazon.com/Collected-Stories-Joseph-Conrad/dp/0880014644/)
-  - Anna Karenina
+  - Lonesome Dove
   - I've also been listening to the [Alzabo Soup](https://alzabosoup.libsyn.com/) podcast on [Gene Wolfe](https://www.newyorker.com/books/page-turner/sci-fis-difficult-genius)
 
 ### Nonfiction
