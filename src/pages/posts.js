@@ -22,7 +22,7 @@ export default function Posts(props) {
               </Link>
             </h3>
             <small>{node.frontmatter.date}</small>
-            <div>{node.excerpt}</div>
+            <p>{node.excerpt}</p>
           </div>
         )
       })}

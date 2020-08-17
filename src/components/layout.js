@@ -123,6 +123,22 @@ p > code::before, p > code::after {
   color: rgba(0, 0, 0, 0.5);
 }
 
+blockquote {
+  background: #f9f9f9;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+}
+
+blockquote::before {
+  content: '> ';
+  color: rgba(0, 0, 0, 0.5);
+  margin-right: 0.25em;
+}
+
+blockquote p {
+  display: inline;
+}
+
 li > p {
 }
 
