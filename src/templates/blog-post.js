@@ -1,7 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import { graphql } from 'gatsby'
-import Link from 'gatsby-link'
+import { Link, graphql } from 'gatsby'
 import Layout from "../components/layout"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 

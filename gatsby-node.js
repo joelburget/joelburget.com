@@ -29,16 +29,15 @@ exports.createPages = async ({ graphql, actions }) => {
   );
 
   if (result.errors) {
-    console.log(result.errors)
-    reject(result.errors)
+    throw result.errors
   }
 
   // Create blog posts pages.
   const posts = result.data.allMdx.edges;
 
   posts.forEach((post, index) => {
-    const next = findListed(posts, index, i => i + 1);
-    const prev = findListed(posts, index, i => i - 1);
+    const next = findListed(posts, index, 1);
+    const prev = findListed(posts, index, -1);
 
     createPage({
       path: post.node.fields.slug,
@@ -52,7 +51,8 @@ exports.createPages = async ({ graphql, actions }) => {
   })
 }
 
-function findListed(posts, start, next) {
+// iterate to find the next listed post
+function findListed(posts, start, incr) {
   const len = posts.length;
   let i = start;
   while (i >= 0 && i < len) {
@@ -60,7 +60,7 @@ function findListed(posts, start, next) {
     if (post.node.frontmatter.listed) {
       return post.node;
     }
-    i = next(i);
+    i += incr;
   }
   return null
 }
