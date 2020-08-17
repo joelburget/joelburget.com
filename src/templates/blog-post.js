@@ -2,7 +2,6 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import Link from 'gatsby-link'
-import get from 'lodash/get'
 import Layout from "../components/layout"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 
@@ -13,10 +12,10 @@ const noLinkPages = [
   "/canon/",
   ];
 
-export default (props) => {
-  const { location, pageContext: { previous, next } } = props;
-  const post = props.data.mdx
-  const siteTitle = get(props, 'data.site.siteMetadata.title')
+export default ({ data, pageContext, location }) => {
+  let { previous, next } = pageContext;
+  const post = data.mdx
+  const siteTitle = data.site.siteMetadata.title
   const showLinks = !noLinkPages.includes(location.pathname);
 
   return (
