@@ -42,12 +42,52 @@ module.exports = {
       }
     },
 
-    `@pauliescanlon/gatsby-mdx-embed`,
+    {
+      resolve: `gatsby-plugin-feed-mdx`,
+      options: {
+        feeds: [
+          {
+            serialize: ({ query: { site, allMdx } }) => {
+              return allMdx.edges.map(edge => {
+                return Object.assign({}, edge.node.frontmatter, {
+                  description: edge.node.excerpt,
+                  date: edge.node.frontmatter.date,
+                  url: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  custom_elements: [{ "content:encoded": edge.node.html }],
+                })
+              })
+            },
+            query: `
+              {
+                allMdx(
+                  sort: { order: DESC, fields: [frontmatter___date] },
+                ) {
+                  edges {
+                    node {
+                      excerpt
+                      html
+                      fields { slug }
+                      frontmatter {
+                        title
+                        date
+                      }
+                    }
+                  }
+                }
+              }
+            `,
+            output: "/rss.xml",
+            title: "joelburget.com feed",
+          },
+        ],
+      },
+    },
 
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    `gatsby-plugin-feed-mdx`,
+    `@pauliescanlon/gatsby-mdx-embed`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
   ],
 }
