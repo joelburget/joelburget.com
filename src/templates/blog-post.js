@@ -59,7 +59,7 @@ export default ({ data, pageContext, location }) => {
 }
 
 export const pageQuery = graphql`
-  query BlogPostBySlug($slug: String!) {
+  query($slug: String!) {
     site {
       siteMetadata {
         title
