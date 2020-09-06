@@ -36,16 +36,16 @@ exports.createPages = async ({ graphql, actions }) => {
   const posts = result.data.allMdx.edges;
 
   posts.forEach((post, index) => {
-    const next = findListed(posts, index, 1);
-    const prev = findListed(posts, index, -1);
+    const newer = findListed(posts, index - 1, -1);
+    const older = findListed(posts, index + 1, 1);
 
     createPage({
       path: post.node.fields.slug,
       component: blogPost,
       context: {
         slug: post.node.fields.slug,
-        prev,
-        next,
+        older,
+        newer,
       },
     })
   })

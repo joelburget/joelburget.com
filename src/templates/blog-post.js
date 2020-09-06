@@ -12,7 +12,7 @@ const noLinkPages = [
   ];
 
 export default ({ data, pageContext, location }) => {
-  let { previous, next } = pageContext;
+  let { older, newer } = pageContext;
   const post = data.mdx
   const siteTitle = data.site.siteMetadata.title
   const showLinks = !noLinkPages.includes(location.pathname);
@@ -37,18 +37,18 @@ export default ({ data, pageContext, location }) => {
             padding: 0,
           }}
         >
-          {previous && (
+          {newer && (
             <li>
-              <Link to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
+              <Link to={newer.fields.slug} rel="next">
+                Newer: {newer.frontmatter.title}
               </Link>
             </li>
           )}
 
-          {next && (
+          {older && (
             <li>
-              <Link to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
+              <Link to={older.fields.slug} rel="prev">
+                Older: {older.frontmatter.title}
               </Link>
             </li>
           )}
