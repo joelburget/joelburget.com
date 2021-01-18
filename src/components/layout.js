@@ -18,7 +18,7 @@ const footer = (
     <h2>Get in Touch</h2>
     <ul>
       <li>github: <a href="https://github.com/joelburget">joelburget</a></li>
-      <li>twitter: <a href="https://twitter.com/dino_joel">@dino_joel</a></li>
+      <li>twitter: <a href="https://twitter.com/joel_burget">@joel_burget</a></li>
       <li>email: <a href="mailto:joelburget@gmail.com">joelburget@gmail.com</a></li>
     </ul>
   </footer>

@@ -22,5 +22,5 @@ I'm also interested in functional programming, programming languages, machine le
 ## Get in Touch
 
 * github: [joelburget](https://github.com/joelburget)
-* twitter: [@dino_joel](https://twitter.com/dino_joel)
+* twitter: [@joel_burget](https://twitter.com/joel_burget)
 * email: [joelburget@gmail.com](mailto:joelburget@gmail.com)
