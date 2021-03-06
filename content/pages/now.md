@@ -22,7 +22,9 @@ Mostly on-hold due to COVID-19.
 
 ### Fiction
 
-  - Lonesome Dove
+  - Henry James: The Wings of the Dove, The Portrait of a Lady
+  - Shakespeare: Coriolanus
+  - Daniel Abraham: The Dagger and the Coin
   - I've also been listening to the [Alzabo Soup](https://alzabosoup.libsyn.com/) podcast on [Gene Wolfe](https://www.newyorker.com/books/page-turner/sci-fis-difficult-genius)
 
 ### Nonfiction
