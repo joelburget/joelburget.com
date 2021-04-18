@@ -55,6 +55,7 @@ This is a work in progress.
 
 ### Books
 
+* [Practical Foundations of Mathematics](http://www.paultaylor.eu/prafm/). This may be my desert island book. Very enjoyable to read and it overlaps with all of my main interests.
 * Calvin & Hobbes -- My favorite comic ever. I think every reader saw themselves in Calvin, his imagination and refusal to follow the rules. Credit to Bill Watterson for creating consistently great content and ending the strip before the content ever got stale.
 * [Asterios Polyp](http://www.amazon.com/Asterios-Polyp-Pantheon-Graphic-Novels/dp/0307377326)
 * [Musashi](http://www.amazon.com/Musashi-Epic-Novel-Samurai-Era/dp/156836427X)
@@ -73,6 +74,12 @@ This is a work in progress.
 * [Harry Potter and the Methods of Rationality](http://www.hpmor.com/)
 * The Hitchhiker's Guide to the Galaxy
 * [Stories of Your Life and Others](https://en.wikipedia.org/wiki/Stories_of_Your_Life_and_Others). Or anything by Ted Chiang ([The Merchant and the Alchemist's Gate](https://en.wikipedia.org/wiki/The_Merchant_and_the_Alchemist%27s_Gate) is very good)
+
+### Screen
+
+* The Sopranos, The Wire, Breaking Bad, and Better Call Saul are my favorite TV shows.
+* Anything by Wes Anderson
+* I recently saw Fanny and Alexander, now I'm excited to explore more Ingmar Bergman.
 
 ### Misc
 
