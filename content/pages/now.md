@@ -10,7 +10,7 @@ listed: false
 
 ### Work
 
-At Google, working on developer productivity.
+At Google, working on developer productivity (IE saving developer time, automating manual processes, removing friction).
 
 ### Personal Projects
 
@@ -22,19 +22,22 @@ Mostly on-hold due to COVID-19.
 
 ### Fiction
 
+  - Rereading The Lord of The Rings
   - Henry James: The Portrait of a Lady
   - Shakespeare's Henriad
-  - I've also been listening to the [Alzabo Soup](https://alzabosoup.libsyn.com/) podcast on [Gene Wolfe](https://www.newyorker.com/books/page-turner/sci-fis-difficult-genius)
+
+### Games
+
+  - I didn't expect to like it, but [Hades](https://www.supergiantgames.com/games/hades/) has become one of my all-time favorite games
 
 ### Nonfiction
 
-  - [Practical Foundations of Mathematics](http://www.paultaylor.eu/prafm/)
+  - [Practical Foundations of Mathematics](http://www.paultaylor.eu/prafm/) (this book is fantastic)
 
 ### Writing
 
-I'm ramping back up after a hiatus. My plan is to post at least biweekly here and on [lvca.dev](https://lvca.dev/).
+I try to post at least biweekly here and on [lvca.dev](https://lvca.dev/).
 
 ### Cooking
 
-I've been cooking a lot from [The Food of Northern Thailand](https://www.austinbushphotography.com/the-food-of-northern-thailand) and [The Woks of Life](https://thewoksoflife.com/).
-
+Lately I've been cooking a lot from the [Bavel cookbook](https://baveldtla.com/bavel-cookbook/)
