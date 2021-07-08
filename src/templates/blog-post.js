@@ -22,8 +22,7 @@ export default ({ data, pageContext, location }) => {
       <Helmet
         title={`${post.frontmatter.title} | ${siteTitle}`}
       >
-        <link rel="shortcut icon" type="image/png" href="favicon512.png" sizes="512x512" />
-        <link rel="shortcut icon" type="image/png" href="favicon600.png" sizes="600x600" />
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌎</text></svg>" />
       </Helmet>
       <MDXRenderer>{post.body}</MDXRenderer>
 
