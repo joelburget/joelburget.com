@@ -29,7 +29,7 @@ The expression problem asks what facilities the language provides to deal with t
 > existing code, and while retaining static type safety (e.g., no
 > casts).
 
-Let's take a look at two how the object-oriented and functional styles cope with the expression problem.
+Let's take a look at how the object-oriented and functional styles cope with the expression problem.
 
 
 ### Object-Oriented
@@ -397,7 +397,7 @@ Additionally, by treating the table as an object in our programming environment,
 
 ## Richer Queries
 
-To make this more interesting, say our environment also provides queryable metadata. It could conceivable provide info on:
+To make this more interesting, say our environment also provides queryable metadata. It could conceivably provide info on:
 
 * _who_ wrote a datatype or function
 * _when_ it was first written and last modified
