@@ -10,6 +10,10 @@ listed: false
 
 I'm a software developer working on developer productivity at Google.
 
+## My beliefs, likes, and interests
+
+My beliefs are broadly similar to those of the rationalist / effective altruist community. I believe most of humanity hasn't been born yet so it's important to make the world a better place for future generations. You might say I'm a [longtermist](https://80000hours.org/articles/future-generations/).
+
 I'm also interested in functional programming, programming languages, machine learning, logic, and category theory.
 
 ## Links

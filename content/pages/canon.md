@@ -5,6 +5,7 @@ permalink: /canon
 date: 2000-01-01
 listed: false
 ---
+
 # Personal Canon
 
 Inspired by [Duncan Graham's canon](http://dvncan.com/canon.html), and transitively, by [David Cole's](http://www.davidcole.me/#canon), here is a list of people and works that have inspired me. Individually beautiful and interesting; together they make me who I am.
@@ -77,7 +78,7 @@ This is a work in progress.
 
 ### Screen
 
-* The Sopranos, The Wire, Breaking Bad, and Better Call Saul are my favorite TV shows.
+* The Sopranos, The Wire, The West Wing, Breaking Bad, and Better Call Saul are my favorite TV shows.
 * Anything by Wes Anderson
 * I recently saw Fanny and Alexander, now I'm excited to explore more Ingmar Bergman.
 

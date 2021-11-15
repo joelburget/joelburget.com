@@ -5,6 +5,20 @@ permalink: /resume
 date: 2000-01-01
 listed: false
 ---
+
+## Work:
+
+* [Google](https://google.com) - Software Engineer (August 2019 - present): I work on an engineering productivity team, building tools to help our partner teams within Google.
+
+  - I built a tool projected to save many engineer-years (per year) by using static analysis to anticipate common failures before changes are committed (and code is run).
+  - I’ve built performance, integration, and regression testing tools that run as part of every deploy.
+  - I had a 20% project with the quantum computing team, building tools used to design chip layouts.
+
+* [Monic](https://www.monic.co/) - Cofounder (Feb 2018 - July 2019): Mostly focused on building the [Pact property checking system](https://blog.monic.co/introducing-the-pact-property-checker/).
+* JP Morgan - New Product Development Engineer - Vice President (Feb 2016 - Feb 2018): I worked on adding Raft-based consensus to the Ethereum Virtual Machine / Blockchain. Before that I worked on a functional programming language called Hopper.
+* Consultant (Oct 2015 - Feb 2016): I worked as a front-end web consultant with a specialiation in React / Flux. I worked with [Spring](https://www.shopspring.com/) where I built their web search feature and [AlphaSheets](http://www.alphasheets.com/) where I helped with architecture and best practices.
+* Khan Academy - Software Developer (2011-2015): I worked on many things during my time at Khan Academy -- search / autocomplete, tooling, frontend UI, etc. Full-stack Python / JavaScript web development.
+
 ## Projects:
 
 [github.com/joelburget](https://github.com/joelburget)
@@ -21,14 +35,6 @@ Unfortunately most of my paid work is not open-source. However, I do have some p
 * [joelburget/haste-compiler:commonjs](https://github.com/joelburget/haste-compiler/tree/commonjs): I took an existing Haskell-to-JavaScript compiler and integrated it with conventional JavaScript tools (CommonJS modules), so that you can more easily use Haskell and JavaScript together.
 
 Many of my projects fall in this niche I've carved out for myself in the intersection between UI and typed functional programming. I enjoy applying the lessons I've learned from each domain to the other.
-
-## Work:
-
-* Khan Academy - Software Developer (2011-2015): I worked on many things during my time at Khan Academy -- search / autocomplete, tooling, frontend UI, etc. Full-stack Python / JavaScript web development.
-* Consultant (Oct 2015 - Feb 2016): I worked as a front-end web consultant with a specialiation in React / Flux. I worked with [Spring](https://www.shopspring.com/) where I built their web search feature and [AlphaSheets](http://www.alphasheets.com/) where I helped with architecture and best practices.
-* JP Morgan - New Product Development Engineer - Vice President (Feb 2016 - Feb 2018): I worked on adding Raft-based consensus to the Ethereum Virtual Machine / Blockchain. Before that I worked on a functional programming language called Hopper.
-* [Monic](https://www.monic.co/) - Cofounder (Feb 2018 - July 2019): Mostly focused on building the [Pact property checking system](https://blog.monic.co/introducing-the-pact-property-checker/).
-* [Google](https://google.com) - Software Engineer (August 2019 - present)
 
 ## Education:
 
