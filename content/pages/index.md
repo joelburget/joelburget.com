@@ -19,7 +19,7 @@ I'm also interested in functional programming, programming languages, machine le
 ## Links
 
 * [/posts](/posts): Blog posts and other writing
-* [/now](/now): What I'm working on how
+* [/now](/now): What I'm working on now
 * [/canon](/canon): Inspiration
 * [/resume](/resume): Work I'm proud of
 
