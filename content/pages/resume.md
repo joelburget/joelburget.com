@@ -8,15 +8,16 @@ listed: false
 
 ## Work:
 
-* [Google](https://google.com) - Software Engineer (August 2019 - present): I work on an engineering productivity team, building tools to help our partner teams within Google.
+* Google - Software Engineer (August 2019 - March 2023): I was tech lead for an engineering productivity team, building tools to help our partner teams within Google.
 
   - I built a tool projected to save many engineer-years (per year) by using static analysis to anticipate common failures before changes are committed (and code is run).
+  - I mentored engineers new to the team (and to Google) and helped prioritize projects and our technical choices.
   - I’ve built performance, integration, and regression testing tools that run as part of every deploy.
   - I had a 20% project with the quantum computing team, building tools used to design chip layouts.
 
-* [Monic](https://www.monic.co/) - Cofounder (Feb 2018 - July 2019): Mostly focused on building the [Pact property checking system](https://blog.monic.co/introducing-the-pact-property-checker/).
+* Monic - Cofounder (Feb 2018 - July 2019): Mostly focused on building the [Pact property checking system](https://github.com/monic-co/blog/blob/master/src/pages/introducing-the-pact-property-checker/index.md).
 * JP Morgan - New Product Development Engineer - Vice President (Feb 2016 - Feb 2018): I worked on adding Raft-based consensus to the Ethereum Virtual Machine / Blockchain. Before that I worked on a functional programming language called Hopper.
-* Consultant (Oct 2015 - Feb 2016): I worked as a front-end web consultant with a specialiation in React / Flux. I worked with [Spring](https://www.shopspring.com/) where I built their web search feature and [AlphaSheets](http://www.alphasheets.com/) where I helped with architecture and best practices.
+* Consultant (Oct 2015 - Feb 2016): I worked as a front-end web consultant with a specialiation in React / Flux. I worked with Spring (now part of Shoprunner) where I built their web search feature and AlphaSheets where I helped with architecture and best practices.
 * Khan Academy - Software Developer (2011-2015): I worked on many things during my time at Khan Academy -- search / autocomplete, tooling, frontend UI, etc. Full-stack Python / JavaScript web development.
 
 ## Projects:
@@ -33,8 +34,6 @@ Unfortunately most of my paid work is not open-source. However, I do have some p
 * [joelburget/react-live-editor](https://github.com/joelburget/react-live-editor): A tool for live editing react components in the browser, used on the react-components [landing page](http://khan.github.io/react-components/).
 * [joelburget/react-haskell](https://github.com/joelburget/react-haskell): Bindings in Haskell for Facebook's React JavaScript library. It works well considering that it's Haskell running in the browser to drive UIs. But this is the project where I learned when to quit.  I wrote about using react-haskell for user interfaces [on my website](http://joelburget.com/react-haskell/).
 * [joelburget/haste-compiler:commonjs](https://github.com/joelburget/haste-compiler/tree/commonjs): I took an existing Haskell-to-JavaScript compiler and integrated it with conventional JavaScript tools (CommonJS modules), so that you can more easily use Haskell and JavaScript together.
-
-Many of my projects fall in this niche I've carved out for myself in the intersection between UI and typed functional programming. I enjoy applying the lessons I've learned from each domain to the other.
 
 ## Education:
 
