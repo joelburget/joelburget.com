@@ -8,6 +8,7 @@ listed: false
 
 ## Work:
 
+* Survival and Flourishing .Com (SFC) (July 2023 - present): I recently joined SFC as the technical lead on a signature vetting system for AI-related petitions.
 * Google - Software Engineer (August 2019 - March 2023): I was tech lead for an engineering productivity team, building tools to help our partner teams within Google.
 
   - I built a tool projected to save many engineer-years (per year) by using static analysis to anticipate common failures before changes are committed (and code is run).

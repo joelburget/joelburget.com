@@ -8,7 +8,7 @@ listed: false
 
 # Joel Burget
 
-I'm a software developer working on developer productivity at Google.
+I'm a software developer working on a signature vetting system for AI-related petitions as survivalandflourishing.com.
 
 ## My beliefs, likes, and interests
 
