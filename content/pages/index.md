@@ -8,7 +8,7 @@ listed: false
 
 # Joel Burget
 
-I'm a software developer working on a signature vetting system for AI-related petitions as survivalandflourishing.com.
+I'm a software developer for survivalandflourishing.com, where I work on both the ["S-Process"](https://survivalandflourishing.fund/s-process.html) software for making grant recommendations and software for publishing open letters as well as vetting signatories of the letters.
 
 ## My beliefs, likes, and interests
 
@@ -18,12 +18,12 @@ I've recently been focused on AI alignment, though I'm also interested in machin
 
 ## Links
 
-* [/posts](/posts): Blog posts and other writing
-* [/canon](/canon): Inspiration
-* [/resume](/resume): Work I'm proud of
+- [/posts](/posts): Blog posts and other writing
+- [/canon](/canon): Inspiration
+- [/resume](/resume): Work I'm proud of
 
 ## Get in Touch
 
-* github: [joelburget](https://github.com/joelburget)
-* twitter: [@joel_burget](https://twitter.com/joel_burget)
-* email: [joelburget@gmail.com](mailto:joelburget@gmail.com)
+- github: [joelburget](https://github.com/joelburget)
+- twitter: [@joel_burget](https://twitter.com/joel_burget)
+- email: [joelburget@gmail.com](mailto:joelburget@gmail.com)
